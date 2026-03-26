@@ -1,87 +1,82 @@
-import math
 import torch
 import torch.nn as nn
+import math
 
 class PositionalEncoding(nn.Module):
-    def __init__(self, d_model: int, dropout: float = 0.1, max_len: int = 5000):
+    # Standard PyTorch boilerplate to give the model a sense of time/order
+    def __init__(self, d_model, max_len=5000):
         super().__init__()
-        self.dropout = nn.Dropout(p=dropout)
-
-        position = torch.arange(max_len).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2) * (-math.log(10000.0) / d_model))
-        # pe shape: (max_len, d_model)
         pe = torch.zeros(max_len, d_model)
+        position = torch.arange(0, max_len, dtype=torch.float).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, d_model, 2).float() * (-math.log(10000.0) / d_model))
         pe[:, 0::2] = torch.sin(position * div_term)
         pe[:, 1::2] = torch.cos(position * div_term)
-        # unsqueeze to match batch_size dimension: (1, max_len, d_model)
-        pe = pe.unsqueeze(0)
-        self.register_buffer('pe', pe)
+        self.register_buffer('pe', pe.unsqueeze(0))
 
-    def forward(self, x: torch.Tensor) -> torch.Tensor:
-        """
-        Arguments:
-            x: Tensor, shape ``[batch_size, seq_len, embedding_dim]``
-        """
-        x = x + self.pe[:, :x.size(1), :]
-        return self.dropout(x)
+    def forward(self, x):
+        return x + self.pe[:, :x.size(1), :]
 
 class MidiCorrector(nn.Module):
-    def __init__(self, vocab_size, d_model=256, nhead=8, num_layers=4):
+    def __init__(self, vocab_size, d_model=256, nhead=8, num_layers=4, sos_token_id=1, eos_token_id=2):
         super().__init__()
+        self.d_model = d_model
         
-        # 1. Embedding layer: Turns token IDs into vectors of size 'd_model'
+        # We need to know these special tokens for the generate() loop
+        self.sos_token_id = sos_token_id # Start of Sequence
+        self.eos_token_id = eos_token_id # End of Sequence
+        
         self.embedding = nn.Embedding(vocab_size, d_model)
-        
-        # We need positional encoding so the model knows the order of notes
-        # (A standard component in Transformers, usually implemented as a separate small class)
         self.pos_encoder = PositionalEncoding(d_model) 
         
-        # 2. The core Transformer
-        # This handles both the Encoder (messy input) and Decoder (clean output)
         self.transformer = nn.Transformer(
-            d_model=d_model, 
-            nhead=nhead, 
-            num_encoder_layers=num_layers,
-            num_decoder_layers=num_layers,
+            d_model=d_model, nhead=nhead, 
+            num_encoder_layers=num_layers, num_decoder_layers=num_layers,
             batch_first=True
         )
-        
-        # 3. Final Output Layer: Maps the Transformer's output back to our vocabulary size
         self.fc_out = nn.Linear(d_model, vocab_size)
 
+    # METHOD 1: Training (Solely based on user-provided paired data)
     def forward(self, messy_src, clean_tgt):
-        # Embed and add positional information
-        src_emb = self.pos_encoder(self.embedding(messy_src))
-        tgt_emb = self.pos_encoder(self.embedding(clean_tgt))
+        src_emb = self.pos_encoder(self.embedding(messy_src) * math.sqrt(self.d_model))
+        tgt_emb = self.pos_encoder(self.embedding(clean_tgt) * math.sqrt(self.d_model))
         
-        # Create a mask for the target sequence so the model can't "look ahead" and cheat
+        # Prevent the model from looking ahead at future user-provided data
         tgt_mask = self.transformer.generate_square_subsequent_mask(clean_tgt.size(1)).to(clean_tgt.device)
         
-        # Pass through the Transformer
-        out = self.transformer(
-            src_emb, 
-            tgt_emb, 
-            tgt_mask=tgt_mask
-        )
-        
-        # Project back to vocabulary token probabilities
-        logits = self.fc_out(out)
-        return logits
-        
-    def generate(self, messy_src, max_length=100, pad_token_id=0):
-        # Simplistic Greedy Autoregressive Decoding for Inference
-        self.eval()
+        out = self.transformer(src_emb, tgt_emb, tgt_mask=tgt_mask)
+        return self.fc_out(out)
+
+    # METHOD 2: Inference (Generating completely new data token-by-token)
+    def generate(self, messy_src, max_length=1000):
         device = messy_src.device
+        batch_size = messy_src.size(0)
         
-        # Start with a dummy single sequence element (e.g. pad token) to prime the decoder
-        clean_tgt = torch.tensor([[pad_token_id]], dtype=torch.long, device=device)
+        # We must encode the messy input once to give the decoder its context
+        src_emb = self.pos_encoder(self.embedding(messy_src) * math.sqrt(self.d_model))
+        memory = self.transformer.encoder(src_emb)
+        
+        # Start the clean sequence with the [SOS] token
+        generated_tokens = torch.full((batch_size, 1), self.sos_token_id, dtype=torch.long, device=device)
         
         for _ in range(max_length):
-            logits = self.forward(messy_src, clean_tgt)
-            # Pick the highest probability token for the latest time step
-            next_token_logits = logits[0, -1, :]
-            next_token = torch.argmax(next_token_logits).unsqueeze(0).unsqueeze(0)
+            # Embed the tokens we have generated *so far*
+            tgt_emb = self.pos_encoder(self.embedding(generated_tokens) * math.sqrt(self.d_model))
+            tgt_mask = self.transformer.generate_square_subsequent_mask(generated_tokens.size(1)).to(device)
             
-            clean_tgt = torch.cat([clean_tgt, next_token], dim=1)
+            # Pass through the decoder using the encoder's memory
+            out = self.transformer.decoder(tgt_emb, memory, tgt_mask=tgt_mask)
             
-        return clean_tgt[0] # Return the 1D sequence
+            # Get the logits for the very last token generated
+            next_token_logits = self.fc_out(out[:, -1, :])
+            
+            # Pick the most likely next token (Greedy decoding)
+            next_token = torch.argmax(next_token_logits, dim=-1).unsqueeze(1)
+            
+            # Append it to our running sequence
+            generated_tokens = torch.cat([generated_tokens, next_token], dim=1)
+            
+            # If the model outputs an [EOS] token, it thinks the song segment is done
+            if (next_token == self.eos_token_id).all():
+                break
+                
+        return generated_tokens
