@@ -1,34 +1,73 @@
+import os
+import time
 import torch
 import torch.nn as nn
 from torch.optim import Adam
 from torch.utils.data import DataLoader
+from dotenv import load_dotenv
+
+import wandb
+from supabase import create_client, Client
 
 from data_pipeline import MidiCorrectionDataset, pad_collate_fn
 from model import MidiCorrector
 
-# 1. Setup Data, Model, and Hardware
+# Load environment variables (Supabase keys)
+load_dotenv()
+
+# --- Configurations ---
+config = {
+    "run_name": f"midi_corrector_{int(time.time())}",
+    "d_model": 256,
+    "nhead": 8,
+    "num_layers": 4,
+    "batch_size": 4,
+    "learning_rate": 0.0001,
+    "epochs": 10,
+    "seconds_per_chunk": 30
+}
+
+# 1. Initialize Logging & Database
+print("Initializing Weights & Biases...")
+wandb.init(
+    project="midicorrector",
+    name=config["run_name"],
+    config=config
+)
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+
+if SUPABASE_URL and SUPABASE_KEY:
+    supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+    print("Connected to Supabase.")
+else:
+    supabase = None
+    print("WARNING: Supabase credentials not found in .env. Database logging disabled.")
+
+# 2. Setup Data, Model, and Hardware
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Training on: {device}")
 
-dataset = MidiCorrectionDataset("raw_midi_grieg_waltz.mid", "cleaned_midi_grieg_waltz.mid", seconds_per_chunk=30)
-dataloader = DataLoader(dataset, batch_size=4, collate_fn=pad_collate_fn, shuffle=True)
+dataset = MidiCorrectionDataset("raw_midi_grieg_waltz.mid", "cleaned_midi_grieg_waltz.mid", seconds_per_chunk=config["seconds_per_chunk"])
+dataloader = DataLoader(dataset, batch_size=config["batch_size"], collate_fn=pad_collate_fn, shuffle=True)
 
-# Note: You get vocab_size from your tokenizer (e.g., len(dataset.tokenizer))
 vocab_size = len(dataset.tokenizer) 
-model = MidiCorrector(vocab_size=vocab_size).to(device)
+model = MidiCorrector(
+    vocab_size=vocab_size,
+    d_model=config["d_model"],
+    nhead=config["nhead"],
+    num_layers=config["num_layers"]
+).to(device)
 
-# 2. Setup Optimizer and Loss Function
-optimizer = Adam(model.parameters(), lr=0.0001)
-
-# We tell the loss function to ignore the "PAD" tokens (usually 0) 
-# so it doesn't waste time learning how to predict empty space.
+# 3. Setup Optimizer and Loss Function
+optimizer = Adam(model.parameters(), lr=config["learning_rate"])
 pad_token_id = dataset.pad_token_id 
 criterion = nn.CrossEntropyLoss(ignore_index=pad_token_id)
 
-# 3. The Training Loop
-epochs = 10
-
-for epoch in range(epochs):
+# 4. The Training Loop
+print("Starting training loop...")
+for epoch in range(config["epochs"]):
     model.train()
     total_loss = 0
     
@@ -36,36 +75,50 @@ for epoch in range(epochs):
         messy = batch["messy"].to(device)
         clean = batch["clean"].to(device)
         
-        # The Seq2Seq Trick (Teacher Forcing):
-        # The model's decoder gets the clean sequence minus the last token as input.
-        # It tries to predict the clean sequence minus the first token as output.
         tgt_input = clean[:, :-1]
         tgt_expected = clean[:, 1:]
         
-        # Clear old gradients
         optimizer.zero_grad()
-        
-        # Forward Pass: Make a prediction
         logits = model(messy, tgt_input)
         
-        # Reshape the outputs so PyTorch's loss function can read them
         logits = logits.reshape(-1, logits.shape[-1])
         tgt_expected = tgt_expected.reshape(-1)
         
-        # Calculate how wrong the prediction was
         loss = criterion(logits, tgt_expected)
-        
-        # Backward Pass: Calculate the adjustments needed
         loss.backward()
-        
-        # Optimizer Step: Actually update the model's brain
         optimizer.step()
         
         total_loss += loss.item()
         
     avg_loss = total_loss / len(dataloader)
-    print(f"Epoch {epoch+1}/{epochs} | Average Loss: {avg_loss:.4f}")
+    print(f"Epoch {epoch+1}/{config['epochs']} | Average Loss: {avg_loss:.4f}")
+    
+    # Log metrics to W&B
+    wandb.log({
+        "epoch": epoch + 1,
+        "loss": avg_loss
+    })
 
-# 4. Save the trained model!
-torch.save(model.state_dict(), "midi_corrector_weights.pth")
-print("\nTraining complete. Model saved as 'midi_corrector_weights.pth'!")
+# Finish W&B run
+wandb.finish()
+
+# 5. Save the trained model and log to Supabase!
+weights_filename = f"{config['run_name']}.pth"
+torch.save(model.state_dict(), weights_filename)
+print(f"\nTraining complete. Model saved as '{weights_filename}'!")
+
+if supabase:
+    print("Logging final run metadata to Supabase...")
+    try:
+        data, count = supabase.table('training_runs').insert({
+            "run_name": config["run_name"],
+            "model_architecture": "Seq2Seq Transformer",
+            "epochs": config["epochs"],
+            "batch_size": config["batch_size"],
+            "learning_rate": config["learning_rate"],
+            "final_loss": avg_loss,
+            "weights_path": weights_filename
+        }).execute()
+        print("✅ Successfully logged metrics to Supabase!")
+    except Exception as e:
+        print(f"❌ Failed to log to Supabase: {e}")
