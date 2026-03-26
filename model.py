@@ -67,3 +67,21 @@ class MidiCorrector(nn.Module):
         # Project back to vocabulary token probabilities
         logits = self.fc_out(out)
         return logits
+        
+    def generate(self, messy_src, max_length=100, pad_token_id=0):
+        # Simplistic Greedy Autoregressive Decoding for Inference
+        self.eval()
+        device = messy_src.device
+        
+        # Start with a dummy single sequence element (e.g. pad token) to prime the decoder
+        clean_tgt = torch.tensor([[pad_token_id]], dtype=torch.long, device=device)
+        
+        for _ in range(max_length):
+            logits = self.forward(messy_src, clean_tgt)
+            # Pick the highest probability token for the latest time step
+            next_token_logits = logits[0, -1, :]
+            next_token = torch.argmax(next_token_logits).unsqueeze(0).unsqueeze(0)
+            
+            clean_tgt = torch.cat([clean_tgt, next_token], dim=1)
+            
+        return clean_tgt[0] # Return the 1D sequence
