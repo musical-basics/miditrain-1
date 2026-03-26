@@ -1,6 +1,8 @@
 -- Run this in your Supabase SQL Editor manually
 
-CREATE TABLE IF NOT EXISTS training_runs (
+CREATE SCHEMA IF NOT EXISTS miditrain;
+
+CREATE TABLE IF NOT EXISTS miditrain.training_runs (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     run_name TEXT NOT NULL,
     model_architecture TEXT NOT NULL,

@@ -7,13 +7,13 @@ from torch.utils.data import DataLoader
 from dotenv import load_dotenv
 
 import wandb
-from supabase import create_client, Client
+from supabase import create_client, Client, ClientOptions
 
 from data_pipeline import MidiCorrectionDataset, pad_collate_fn
 from model import MidiCorrector
 
 # Load environment variables (Supabase keys)
-load_dotenv()
+load_dotenv(".env.local")
 
 # --- Configurations ---
 config = {
@@ -39,7 +39,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 
 if SUPABASE_URL and SUPABASE_KEY:
-    supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+    supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY, options=ClientOptions(schema="miditrain"))
     print("Connected to Supabase.")
 else:
     supabase = None
