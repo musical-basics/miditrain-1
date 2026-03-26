@@ -34,3 +34,4 @@ mistakes.mid
 clean.mid
 raw_midi_grieg_waltz.mid
 cleaned_midi_grieg_waltz.mid
+*.pth
