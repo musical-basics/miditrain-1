@@ -261,7 +261,7 @@
     <script>
     // ===== CONFIG =====
     const NOTE_HEIGHT = 10;
-    const MS_PER_PX = 0.8;         // horizontal zoom
+    const MAX_CANVAS_PX = 8000;    // browser-safe cap
     const PITCH_MIN = 21;          // A0
     const PITCH_MAX = 108;         // C8
     const NOTE_NAMES = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
@@ -269,6 +269,21 @@
 
     let analysisData = null;
     let currentView = 'raw';
+    let MS_PER_PX = 0.8;           // will be auto-calculated
+
+    // roundRect polyfill for older browsers
+    if (!CanvasRenderingContext2D.prototype.roundRect) {
+        CanvasRenderingContext2D.prototype.roundRect = function(x, y, w, h, r) {
+            if (w < 2 * r) r = w / 2;
+            if (h < 2 * r) r = h / 2;
+            this.moveTo(x + r, y);
+            this.arcTo(x + w, y, x + w, y + h, r);
+            this.arcTo(x + w, y + h, x, y + h, r);
+            this.arcTo(x, y + h, x, y, r);
+            this.arcTo(x, y, x + w, y, r);
+            this.closePath();
+        };
+    }
 
     // ===== LOAD DATA =====
     async function loadData() {
@@ -335,16 +350,18 @@
         const ctx = canvas.getContext('2d');
         const pitchRange = PITCH_MAX - PITCH_MIN + 1;
 
-        // Calculate canvas dimensions
+        // Calculate canvas dimensions — auto-zoom to fit within browser limits
         const maxTime = Math.max(...notes.map(n => n.onset + n.duration)) + 500;
+        MS_PER_PX = Math.min(0.8, MAX_CANVAS_PX / maxTime);  // auto-fit
         const canvasW = Math.max(maxTime * MS_PER_PX, 1200);
         const canvasH = pitchRange * NOTE_HEIGHT;
 
-        canvas.width = canvasW * window.devicePixelRatio;
-        canvas.height = canvasH * window.devicePixelRatio;
+        const dpr = window.devicePixelRatio || 1;
+        canvas.width = canvasW * dpr;
+        canvas.height = canvasH * dpr;
         canvas.style.width = canvasW + 'px';
         canvas.style.height = canvasH + 'px';
-        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        ctx.scale(dpr, dpr);
 
         // Clear
         ctx.fillStyle = var_bg_primary;
