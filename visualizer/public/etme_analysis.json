@@ -51,8 +51,8 @@
       "duration": 62,
       "id_score": 671.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.1,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -73,8 +73,8 @@
       "duration": 57,
       "id_score": 907.09,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 27.3,
-      "sat": 86.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -128,8 +128,8 @@
       "duration": 67,
       "id_score": 730.71,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 26.4,
-      "sat": 86.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -150,8 +150,8 @@
       "duration": 265,
       "id_score": 1883.04,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 72.6,
-      "sat": 96.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -194,8 +194,8 @@
       "duration": 57,
       "id_score": 7.75,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 303.2,
-      "sat": 33.4,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -205,8 +205,8 @@
       "duration": 67,
       "id_score": 12.94,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 319.8,
-      "sat": 88.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -216,8 +216,8 @@
       "duration": 52,
       "id_score": 518.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 357.1,
-      "sat": 43.8,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -260,8 +260,8 @@
       "duration": 78,
       "id_score": 261.53,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 134.5,
-      "sat": 96.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -271,8 +271,8 @@
       "duration": 78,
       "id_score": 346.46,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 118.9,
-      "sat": 83.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -282,8 +282,8 @@
       "duration": 62,
       "id_score": 61.08,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 117.7,
-      "sat": 28.9,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -293,8 +293,8 @@
       "duration": 78,
       "id_score": 16.35,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 300.0,
-      "sat": 6.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -304,8 +304,8 @@
       "duration": 62,
       "id_score": 401.57,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 187.2,
-      "sat": 14.2,
+      "hue": 175.3,
+      "sat": 33.9,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -315,8 +315,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 187.2,
-      "sat": 14.2,
+      "hue": 175.3,
+      "sat": 33.9,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -348,8 +348,8 @@
       "duration": 52,
       "id_score": 1139.84,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 138.5,
-      "sat": 51.0,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -370,8 +370,8 @@
       "duration": 72,
       "id_score": 705.51,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.1,
-      "sat": 86.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -381,8 +381,8 @@
       "duration": 1401,
       "id_score": 571.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 43.7,
-      "sat": 89.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -403,8 +403,8 @@
       "duration": 67,
       "id_score": 718.11,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 26.9,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -436,8 +436,8 @@
       "duration": 62,
       "id_score": 680.31,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 26.0,
-      "sat": 86.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -458,8 +458,8 @@
       "duration": 62,
       "id_score": 251.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 25.1,
-      "sat": 86.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -480,8 +480,8 @@
       "duration": 72,
       "id_score": 58.79,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 73.6,
-      "sat": 96.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -491,8 +491,8 @@
       "duration": 62,
       "id_score": 6.67,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 144.2,
-      "sat": 26.2,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -502,8 +502,8 @@
       "duration": 72,
       "id_score": 272.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 51.4,
-      "sat": 32.2,
+      "hue": 26.6,
+      "sat": 86.8,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -513,8 +513,8 @@
       "duration": 67,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 51.4,
-      "sat": 32.2,
+      "hue": 26.6,
+      "sat": 86.8,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -524,8 +524,8 @@
       "duration": 57,
       "id_score": 28.84,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 310.6,
-      "sat": 31.7,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -535,8 +535,8 @@
       "duration": 62,
       "id_score": 21.72,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 316.9,
-      "sat": 88.9,
+      "hue": 327.2,
+      "sat": 86.7,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -546,8 +546,8 @@
       "duration": 223,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 316.9,
-      "sat": 88.9,
+      "hue": 327.2,
+      "sat": 86.7,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -557,8 +557,8 @@
       "duration": 62,
       "id_score": 1259.84,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 333.5,
-      "sat": 69.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -568,8 +568,8 @@
       "duration": 52,
       "id_score": 50.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 20.9,
-      "sat": 52.8,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -601,8 +601,8 @@
       "duration": 67,
       "id_score": 7.65,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 123.4,
-      "sat": 86.8,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -612,8 +612,8 @@
       "duration": 83,
       "id_score": 854.33,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 122.3,
-      "sat": 90.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Regime Locked"
     },
     {
@@ -623,8 +623,8 @@
       "duration": 83,
       "id_score": 173.23,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 115.0,
-      "sat": 85.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -634,8 +634,8 @@
       "duration": 57,
       "id_score": 64.18,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 132.7,
-      "sat": 27.9,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -645,8 +645,8 @@
       "duration": 62,
       "id_score": 44.39,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 347.0,
-      "sat": 51.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -656,8 +656,8 @@
       "duration": 72,
       "id_score": 1171.65,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 46.1,
-      "sat": 26.8,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -667,8 +667,8 @@
       "duration": 119,
       "id_score": 899.53,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 341.3,
-      "sat": 28.5,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -678,8 +678,8 @@
       "duration": 72,
       "id_score": 6.57,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 169.9,
-      "sat": 11.0,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -689,8 +689,8 @@
       "duration": 46,
       "id_score": 9.3,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 156.2,
-      "sat": 50.3,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -700,8 +700,8 @@
       "duration": 291,
       "id_score": 2229.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 128.8,
-      "sat": 53.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -711,8 +711,8 @@
       "duration": 46,
       "id_score": 452.27,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 163.5,
-      "sat": 51.4,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -744,8 +744,8 @@
       "duration": 1458,
       "id_score": 288.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.1,
-      "sat": 88.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -766,8 +766,8 @@
       "duration": 67,
       "id_score": 869.29,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.6,
-      "sat": 86.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -799,8 +799,8 @@
       "duration": 57,
       "id_score": 919.69,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 27.7,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -821,8 +821,8 @@
       "duration": 57,
       "id_score": 485.04,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 27.0,
-      "sat": 86.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -865,8 +865,8 @@
       "duration": 78,
       "id_score": 568.07,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 37.7,
-      "sat": 91.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -887,8 +887,8 @@
       "duration": 41,
       "id_score": 155.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 314.8,
-      "sat": 96.6,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -898,8 +898,8 @@
       "duration": 46,
       "id_score": 1324.51,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 342.0,
-      "sat": 65.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -909,8 +909,8 @@
       "duration": 62,
       "id_score": 1788.98,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.2,
-      "sat": 72.2,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -931,8 +931,8 @@
       "duration": 41,
       "id_score": 2014.7,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 130.7,
-      "sat": 26.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -942,8 +942,8 @@
       "duration": 41,
       "id_score": 2393.7,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 32.4,
-      "sat": 24.8,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -953,8 +953,8 @@
       "duration": 41,
       "id_score": 1466.93,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 64.5,
-      "sat": 37.3,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -975,8 +975,8 @@
       "duration": 822,
       "id_score": 293.93,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 73.6,
-      "sat": 66.8,
+      "hue": 90.6,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -986,8 +986,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 73.6,
-      "sat": 66.8,
+      "hue": 90.6,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -997,8 +997,8 @@
       "duration": 838,
       "id_score": 1244.88,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 88.6,
-      "sat": 69.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1008,8 +1008,8 @@
       "duration": 848,
       "id_score": 424.41,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 75.3,
-      "sat": 68.3,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1019,8 +1019,8 @@
       "duration": 703,
       "id_score": 64.51,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 83.6,
-      "sat": 64.9,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1030,8 +1030,8 @@
       "duration": 135,
       "id_score": 147.49,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 91.1,
-      "sat": 67.8,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1041,8 +1041,8 @@
       "duration": 114,
       "id_score": 13.08,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 77.3,
-      "sat": 59.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1052,8 +1052,8 @@
       "duration": 411,
       "id_score": 12.57,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 101.2,
-      "sat": 56.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1085,8 +1085,8 @@
       "duration": 46,
       "id_score": 638.32,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 20.7,
-      "sat": 87.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1096,8 +1096,8 @@
       "duration": 52,
       "id_score": 892.91,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 36.9,
-      "sat": 78.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1129,8 +1129,8 @@
       "duration": 57,
       "id_score": 952.44,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 16.4,
-      "sat": 45.1,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1140,8 +1140,8 @@
       "duration": 72,
       "id_score": 354.33,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 37.4,
-      "sat": 45.2,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1173,8 +1173,8 @@
       "duration": 52,
       "id_score": 873.07,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 275.4,
-      "sat": 50.6,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1184,8 +1184,8 @@
       "duration": 67,
       "id_score": 503.15,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 281.9,
-      "sat": 18.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -1206,8 +1206,8 @@
       "duration": 1010,
       "id_score": 265.75,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.1,
-      "sat": 58.9,
+      "hue": 77.0,
+      "sat": 62.6,
       "regime_state": "Stable"
     },
     {
@@ -1217,8 +1217,8 @@
       "duration": 963,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 44.1,
-      "sat": 58.9,
+      "hue": 77.0,
+      "sat": 62.6,
       "regime_state": "Stable"
     },
     {
@@ -1228,8 +1228,8 @@
       "duration": 968,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 44.1,
-      "sat": 58.9,
+      "hue": 77.0,
+      "sat": 62.6,
       "regime_state": "Stable"
     },
     {
@@ -1239,8 +1239,8 @@
       "duration": 932,
       "id_score": 362.83,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 49.1,
-      "sat": 67.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1250,8 +1250,8 @@
       "duration": 109,
       "id_score": 34.79,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 67.3,
-      "sat": 54.7,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1261,8 +1261,8 @@
       "duration": 72,
       "id_score": 8.52,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 90.2,
-      "sat": 70.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1272,8 +1272,8 @@
       "duration": 536,
       "id_score": 8.68,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 132.1,
-      "sat": 88.6,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1294,8 +1294,8 @@
       "duration": 994,
       "id_score": 1403.15,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 94.5,
-      "sat": 27.5,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -1305,8 +1305,8 @@
       "duration": 989,
       "id_score": 395.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 346.2,
-      "sat": 41.9,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1316,8 +1316,8 @@
       "duration": 927,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 346.2,
-      "sat": 41.9,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1327,8 +1327,8 @@
       "duration": 182,
       "id_score": 22.51,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 20.5,
-      "sat": 34.7,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1338,8 +1338,8 @@
       "duration": 135,
       "id_score": 8.18,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 61.4,
-      "sat": 86.6,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1349,8 +1349,8 @@
       "duration": 505,
       "id_score": 10.06,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 58.9,
-      "sat": 86.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Regime Locked"
     },
     {
@@ -1371,8 +1371,8 @@
       "duration": 177,
       "id_score": 76.77,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 360.0,
-      "sat": 86.6,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1382,8 +1382,8 @@
       "duration": 1213,
       "id_score": 1525.98,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 7.1,
-      "sat": 90.2,
+      "hue": 15.1,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -1393,8 +1393,8 @@
       "duration": 1197,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 7.1,
-      "sat": 90.2,
+      "hue": 15.1,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -1404,8 +1404,8 @@
       "duration": 1161,
       "id_score": 527.56,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 5.5,
-      "sat": 92.1,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Regime Locked"
     },
     {
@@ -1415,8 +1415,8 @@
       "duration": 151,
       "id_score": 14.47,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 16.3,
-      "sat": 86.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1426,8 +1426,8 @@
       "duration": 156,
       "id_score": 7.93,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 88.9,
-      "sat": 86.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1437,8 +1437,8 @@
       "duration": 656,
       "id_score": 8.16,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 88.0,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1470,8 +1470,8 @@
       "duration": 265,
       "id_score": 1033.07,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 69.6,
-      "sat": 44.2,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1481,8 +1481,8 @@
       "duration": 213,
       "id_score": 330.71,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 40.8,
-      "sat": 47.8,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1503,8 +1503,8 @@
       "duration": 57,
       "id_score": 606.3,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 75.3,
-      "sat": 96.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1514,8 +1514,8 @@
       "duration": 57,
       "id_score": 2321.26,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 59.0,
-      "sat": 90.8,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1525,8 +1525,8 @@
       "duration": 57,
       "id_score": 196.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 45.1,
-      "sat": 84.1,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1536,8 +1536,8 @@
       "duration": 78,
       "id_score": 9.09,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 54.0,
-      "sat": 82.7,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1547,8 +1547,8 @@
       "duration": 72,
       "id_score": 522.83,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 40.0,
-      "sat": 72.2,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1558,8 +1558,8 @@
       "duration": 62,
       "id_score": 1053.69,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 48.8,
-      "sat": 71.9,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1569,8 +1569,8 @@
       "duration": 67,
       "id_score": 651.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.2,
-      "sat": 71.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1580,8 +1580,8 @@
       "duration": 52,
       "id_score": 22.19,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 15.4,
-      "sat": 56.2,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1591,8 +1591,8 @@
       "duration": 52,
       "id_score": 299.21,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 11.4,
-      "sat": 63.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1602,8 +1602,8 @@
       "duration": 57,
       "id_score": 395.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 31.8,
-      "sat": 61.5,
+      "hue": 76.1,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -1613,8 +1613,8 @@
       "duration": 52,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 31.8,
-      "sat": 61.5,
+      "hue": 76.1,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -1635,8 +1635,8 @@
       "duration": 46,
       "id_score": 529.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 81.6,
-      "sat": 51.9,
+      "hue": 64.9,
+      "sat": 27.5,
       "regime_state": "Stable"
     },
     {
@@ -1646,8 +1646,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 81.6,
-      "sat": 51.9,
+      "hue": 64.9,
+      "sat": 27.5,
       "regime_state": "Stable"
     },
     {
@@ -1657,8 +1657,8 @@
       "duration": 46,
       "id_score": 122.54,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 104.9,
-      "sat": 52.8,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1679,8 +1679,8 @@
       "duration": 1057,
       "id_score": 503.94,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.3,
-      "sat": 57.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1690,8 +1690,8 @@
       "duration": 1026,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 29.3,
-      "sat": 57.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1701,8 +1701,8 @@
       "duration": 958,
       "id_score": 370.08,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 61.8,
-      "sat": 37.7,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1811,8 +1811,8 @@
       "duration": 67,
       "id_score": 818.9,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 26.2,
-      "sat": 86.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1833,8 +1833,8 @@
       "duration": 244,
       "id_score": 539.53,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 72.3,
-      "sat": 96.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1855,8 +1855,8 @@
       "duration": 72,
       "id_score": 1010.5,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 175.1,
-      "sat": 33.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1866,8 +1866,8 @@
       "duration": 72,
       "id_score": 629.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 62.4,
-      "sat": 2.4,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -1877,8 +1877,8 @@
       "duration": 67,
       "id_score": 30.7,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 302.8,
-      "sat": 29.3,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -1888,8 +1888,8 @@
       "duration": 83,
       "id_score": 36.99,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 353.2,
-      "sat": 65.8,
+      "hue": 29.7,
+      "sat": 86.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1899,8 +1899,8 @@
       "duration": 62,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 353.2,
-      "sat": 65.8,
+      "hue": 29.7,
+      "sat": 86.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -1910,8 +1910,8 @@
       "duration": 52,
       "id_score": 422.76,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 25.7,
-      "sat": 52.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1954,8 +1954,8 @@
       "duration": 83,
       "id_score": 417.4,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 137.8,
-      "sat": 96.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1965,8 +1965,8 @@
       "duration": 83,
       "id_score": 661.42,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 121.8,
-      "sat": 82.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -1976,8 +1976,8 @@
       "duration": 62,
       "id_score": 64.76,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 124.0,
-      "sat": 25.1,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -1987,8 +1987,8 @@
       "duration": 72,
       "id_score": 16.19,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 300.0,
-      "sat": 9.2,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -1998,8 +1998,8 @@
       "duration": 72,
       "id_score": 322.12,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.3,
-      "sat": 20.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -2009,8 +2009,8 @@
       "duration": 57,
       "id_score": 2109.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 200.0,
-      "sat": 17.2,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -2042,8 +2042,8 @@
       "duration": 41,
       "id_score": 685.58,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 135.0,
-      "sat": 51.8,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2064,8 +2064,8 @@
       "duration": 72,
       "id_score": 617.32,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 30.3,
-      "sat": 86.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2075,8 +2075,8 @@
       "duration": 1682,
       "id_score": 262.66,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 45.2,
-      "sat": 89.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2097,8 +2097,8 @@
       "duration": 57,
       "id_score": 982.68,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.0,
-      "sat": 86.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2130,8 +2130,8 @@
       "duration": 62,
       "id_score": 894.49,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.4,
-      "sat": 86.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2152,8 +2152,8 @@
       "duration": 52,
       "id_score": 418.04,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.3,
-      "sat": 86.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2174,8 +2174,8 @@
       "duration": 72,
       "id_score": 51.41,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 72.4,
-      "sat": 96.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2185,8 +2185,8 @@
       "duration": 78,
       "id_score": 24.04,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 96.6,
-      "sat": 33.0,
+      "hue": 172.9,
+      "sat": 32.8,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2196,8 +2196,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 96.6,
-      "sat": 33.0,
+      "hue": 172.9,
+      "sat": 32.8,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2207,8 +2207,8 @@
       "duration": 57,
       "id_score": 642.52,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 50.6,
-      "sat": 32.5,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2218,8 +2218,8 @@
       "duration": 57,
       "id_score": 29.4,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 313.4,
-      "sat": 31.1,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2229,8 +2229,8 @@
       "duration": 67,
       "id_score": 31.21,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 318.6,
-      "sat": 66.7,
+      "hue": 340.4,
+      "sat": 53.1,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2240,8 +2240,8 @@
       "duration": 218,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 318.6,
-      "sat": 66.7,
+      "hue": 340.4,
+      "sat": 53.1,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2251,8 +2251,8 @@
       "duration": 72,
       "id_score": 680.31,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 329.4,
-      "sat": 69.5,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2262,8 +2262,8 @@
       "duration": 78,
       "id_score": 24.8,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 20.6,
-      "sat": 50.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2295,8 +2295,8 @@
       "duration": 72,
       "id_score": 45.04,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 75.6,
-      "sat": 96.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2306,8 +2306,8 @@
       "duration": 62,
       "id_score": 3009.58,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 101.6,
-      "sat": 79.4,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2317,8 +2317,8 @@
       "duration": 78,
       "id_score": 306.64,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 106.4,
-      "sat": 83.2,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2328,8 +2328,8 @@
       "duration": 57,
       "id_score": 23.1,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 107.8,
-      "sat": 30.3,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2339,8 +2339,8 @@
       "duration": 67,
       "id_score": 32.97,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 340.4,
-      "sat": 53.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2350,8 +2350,8 @@
       "duration": 67,
       "id_score": 927.56,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 330.9,
-      "sat": 33.8,
+      "hue": 300.0,
+      "sat": 17.4,
       "regime_state": "Stable"
     },
     {
@@ -2361,8 +2361,8 @@
       "duration": 218,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 330.9,
-      "sat": 33.8,
+      "hue": 300.0,
+      "sat": 17.4,
       "regime_state": "Stable"
     },
     {
@@ -2372,8 +2372,8 @@
       "duration": 62,
       "id_score": 6.83,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 202.8,
-      "sat": 11.6,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -2383,8 +2383,8 @@
       "duration": 395,
       "id_score": 43.04,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 126.4,
-      "sat": 54.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2394,8 +2394,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 126.4,
-      "sat": 54.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2405,8 +2405,8 @@
       "duration": 52,
       "id_score": 55.06,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 161.3,
-      "sat": 51.0,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2427,8 +2427,8 @@
       "duration": 57,
       "id_score": 734.91,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.3,
-      "sat": 88.6,
+      "hue": 34.1,
+      "sat": 86.8,
       "regime_state": "Stable"
     },
     {
@@ -2438,8 +2438,8 @@
       "duration": 1442,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 42.3,
-      "sat": 88.6,
+      "hue": 34.1,
+      "sat": 86.8,
       "regime_state": "Stable"
     },
     {
@@ -2460,8 +2460,8 @@
       "duration": 57,
       "id_score": 734.91,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 27.6,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2493,8 +2493,8 @@
       "duration": 57,
       "id_score": 776.9,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 27.9,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2515,8 +2515,8 @@
       "duration": 62,
       "id_score": 640.42,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 23.5,
-      "sat": 87.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2537,8 +2537,8 @@
       "duration": 46,
       "id_score": 1490.08,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.7,
-      "sat": 96.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2548,8 +2548,8 @@
       "duration": 78,
       "id_score": 655.12,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 49.1,
-      "sat": 96.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2559,8 +2559,8 @@
       "duration": 67,
       "id_score": 390.55,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 39.1,
-      "sat": 91.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2581,8 +2581,8 @@
       "duration": 52,
       "id_score": 148.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 314.6,
-      "sat": 96.6,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2592,8 +2592,8 @@
       "duration": 57,
       "id_score": 957.48,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.6,
-      "sat": 72.7,
+      "hue": 30.6,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -2603,8 +2603,8 @@
       "duration": 52,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 347.6,
-      "sat": 72.7,
+      "hue": 30.6,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -2625,8 +2625,8 @@
       "duration": 46,
       "id_score": 1895.01,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 137.2,
-      "sat": 25.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -2636,8 +2636,8 @@
       "duration": 41,
       "id_score": 324.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 107.5,
-      "sat": 44.3,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2647,8 +2647,8 @@
       "duration": 46,
       "id_score": 1233.07,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 66.4,
-      "sat": 35.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2669,8 +2669,8 @@
       "duration": 916,
       "id_score": 640.98,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 46.4,
-      "sat": 96.6,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2680,8 +2680,8 @@
       "duration": 921,
       "id_score": 583.11,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 69.2,
-      "sat": 80.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2691,8 +2691,8 @@
       "duration": 916,
       "id_score": 1358.5,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 88.7,
-      "sat": 69.4,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2702,8 +2702,8 @@
       "duration": 947,
       "id_score": 1788.98,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 76.3,
-      "sat": 68.0,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2713,8 +2713,8 @@
       "duration": 135,
       "id_score": 117.81,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 85.8,
-      "sat": 69.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2724,8 +2724,8 @@
       "duration": 57,
       "id_score": 9.33,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 94.2,
-      "sat": 56.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2735,8 +2735,8 @@
       "duration": 484,
       "id_score": 12.28,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 91.6,
-      "sat": 58.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2757,8 +2757,8 @@
       "duration": 57,
       "id_score": 1228.35,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 20.7,
-      "sat": 87.8,
+      "hue": 32.5,
+      "sat": 86.7,
       "regime_state": "Stable"
     },
     {
@@ -2768,8 +2768,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 20.7,
-      "sat": 87.8,
+      "hue": 32.5,
+      "sat": 86.7,
       "regime_state": "Stable"
     },
     {
@@ -2779,8 +2779,8 @@
       "duration": 72,
       "id_score": 63.18,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 31.1,
-      "sat": 80.9,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2812,8 +2812,8 @@
       "duration": 57,
       "id_score": 562.2,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 17.1,
-      "sat": 45.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2823,8 +2823,8 @@
       "duration": 72,
       "id_score": 687.19,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 40.9,
-      "sat": 46.4,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2845,8 +2845,8 @@
       "duration": 52,
       "id_score": 212.6,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 241.2,
-      "sat": 86.6,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2856,8 +2856,8 @@
       "duration": 46,
       "id_score": 952.44,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 272.4,
-      "sat": 52.4,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2867,8 +2867,8 @@
       "duration": 67,
       "id_score": 186.25,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 273.4,
-      "sat": 32.4,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2889,8 +2889,8 @@
       "duration": 1046,
       "id_score": 504.99,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 47.5,
-      "sat": 29.2,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -2900,8 +2900,8 @@
       "duration": 1062,
       "id_score": 310.67,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 49.1,
-      "sat": 67.0,
+      "hue": 49.5,
+      "sat": 96.9,
       "regime_state": "Stable"
     },
     {
@@ -2911,8 +2911,8 @@
       "duration": 1015,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 49.1,
-      "sat": 67.0,
+      "hue": 49.5,
+      "sat": 96.9,
       "regime_state": "Stable"
     },
     {
@@ -2922,8 +2922,8 @@
       "duration": 1031,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 49.1,
-      "sat": 67.0,
+      "hue": 49.5,
+      "sat": 96.9,
       "regime_state": "Stable"
     },
     {
@@ -2933,8 +2933,8 @@
       "duration": 130,
       "id_score": 20.42,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 66.8,
-      "sat": 55.0,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2944,8 +2944,8 @@
       "duration": 67,
       "id_score": 11.42,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 89.3,
-      "sat": 70.4,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -2955,8 +2955,8 @@
       "duration": 604,
       "id_score": 12.52,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 130.9,
-      "sat": 88.2,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -2988,8 +2988,8 @@
       "duration": 994,
       "id_score": 214.32,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 7.7,
-      "sat": 24.7,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -2999,8 +2999,8 @@
       "duration": 1031,
       "id_score": 342.52,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.8,
-      "sat": 38.7,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3010,8 +3010,8 @@
       "duration": 140,
       "id_score": 72.44,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 25.2,
-      "sat": 33.2,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3021,8 +3021,8 @@
       "duration": 114,
       "id_score": 8.61,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 14.0,
-      "sat": 65.6,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3032,8 +3032,8 @@
       "duration": 557,
       "id_score": 7.66,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 70.7,
-      "sat": 88.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3054,8 +3054,8 @@
       "duration": 1390,
       "id_score": 1615.75,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 17.0,
-      "sat": 96.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3065,7 +3065,7 @@
       "duration": 1359,
       "id_score": 175.69,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 16.2,
+      "hue": 15.3,
       "sat": 96.6,
       "regime_state": "Regime Locked"
     },
@@ -3076,7 +3076,7 @@
       "duration": 1291,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 16.2,
+      "hue": 15.3,
       "sat": 96.6,
       "regime_state": "Regime Locked"
     },
@@ -3087,8 +3087,8 @@
       "duration": 104,
       "id_score": 511.81,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 6.7,
-      "sat": 92.1,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3098,8 +3098,8 @@
       "duration": 130,
       "id_score": 4.17,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 17.8,
-      "sat": 87.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3109,8 +3109,8 @@
       "duration": 145,
       "id_score": 8.83,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 41.1,
-      "sat": 61.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3120,8 +3120,8 @@
       "duration": 937,
       "id_score": 5.73,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 94.7,
-      "sat": 86.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3153,8 +3153,8 @@
       "duration": 72,
       "id_score": 1337.53,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 72.3,
-      "sat": 46.2,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3164,8 +3164,8 @@
       "duration": 46,
       "id_score": 314.96,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.3,
-      "sat": 48.1,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3186,8 +3186,8 @@
       "duration": 78,
       "id_score": 1147.44,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.3,
-      "sat": 96.6,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3197,8 +3197,8 @@
       "duration": 62,
       "id_score": 559.06,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 57.9,
-      "sat": 91.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3208,8 +3208,8 @@
       "duration": 67,
       "id_score": 70.87,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 45.8,
-      "sat": 85.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3219,8 +3219,8 @@
       "duration": 83,
       "id_score": 10.98,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 55.2,
-      "sat": 83.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3230,8 +3230,8 @@
       "duration": 78,
       "id_score": 130.71,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 34.5,
-      "sat": 73.0,
+      "hue": 342.8,
+      "sat": 96.7,
       "regime_state": "Stable"
     },
     {
@@ -3241,8 +3241,8 @@
       "duration": 67,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 34.5,
-      "sat": 73.0,
+      "hue": 342.8,
+      "sat": 96.7,
       "regime_state": "Stable"
     },
     {
@@ -3252,8 +3252,8 @@
       "duration": 72,
       "id_score": 1113.78,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 43.6,
-      "sat": 71.7,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3263,8 +3263,8 @@
       "duration": 52,
       "id_score": 61.11,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 64.4,
-      "sat": 54.1,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3274,7 +3274,7 @@
       "duration": 46,
       "id_score": 970.08,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 52.4,
+      "hue": 24.7,
       "sat": 50.2,
       "regime_state": "Stable"
     },
@@ -3285,7 +3285,7 @@
       "duration": 52,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 52.4,
+      "hue": 24.7,
       "sat": 50.2,
       "regime_state": "Stable"
     },
@@ -3296,8 +3296,8 @@
       "duration": 52,
       "id_score": 551.18,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 41.3,
-      "sat": 52.5,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3318,8 +3318,8 @@
       "duration": 46,
       "id_score": 585.83,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 77.6,
-      "sat": 47.5,
+      "hue": 106.0,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -3329,8 +3329,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 77.6,
-      "sat": 47.5,
+      "hue": 106.0,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -3340,8 +3340,8 @@
       "duration": 46,
       "id_score": 122.54,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 103.2,
-      "sat": 48.4,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3362,8 +3362,8 @@
       "duration": 911,
       "id_score": 1360.63,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 33.8,
-      "sat": 60.1,
+      "hue": 358.6,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -3373,8 +3373,8 @@
       "duration": 1109,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 33.8,
-      "sat": 60.1,
+      "hue": 358.6,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -3384,8 +3384,8 @@
       "duration": 1119,
       "id_score": 95.96,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 60.4,
-      "sat": 42.5,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3417,8 +3417,8 @@
       "duration": 52,
       "id_score": 79.95,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 37.4,
-      "sat": 87.3,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3439,8 +3439,8 @@
       "duration": 62,
       "id_score": 434.65,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.5,
-      "sat": 86.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3472,8 +3472,8 @@
       "duration": 57,
       "id_score": 447.24,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.8,
-      "sat": 86.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3516,8 +3516,8 @@
       "duration": 276,
       "id_score": 2393.7,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 71.0,
-      "sat": 96.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3538,8 +3538,8 @@
       "duration": 78,
       "id_score": 554.33,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 302.7,
-      "sat": 3.7,
+      "hue": 186.2,
+      "sat": 41.3,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3549,8 +3549,8 @@
       "duration": 62,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 302.7,
-      "sat": 3.7,
+      "hue": 186.2,
+      "sat": 41.3,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3560,8 +3560,8 @@
       "duration": 67,
       "id_score": 7.61,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 300.2,
-      "sat": 33.9,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3571,8 +3571,8 @@
       "duration": 67,
       "id_score": 17.92,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 324.5,
-      "sat": 87.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3582,8 +3582,8 @@
       "duration": 78,
       "id_score": 667.72,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.4,
-      "sat": 67.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3593,8 +3593,8 @@
       "duration": 52,
       "id_score": 1119.54,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 21.0,
-      "sat": 50.1,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3637,8 +3637,8 @@
       "duration": 88,
       "id_score": 320.37,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 136.3,
-      "sat": 96.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3648,8 +3648,8 @@
       "duration": 93,
       "id_score": 362.2,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 120.6,
-      "sat": 82.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3659,8 +3659,8 @@
       "duration": 62,
       "id_score": 63.98,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 121.1,
-      "sat": 29.5,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3670,8 +3670,8 @@
       "duration": 72,
       "id_score": 16.9,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 300.0,
-      "sat": 6.5,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3681,8 +3681,8 @@
       "duration": 67,
       "id_score": 393.7,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 49.1,
-      "sat": 22.5,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3692,8 +3692,8 @@
       "duration": 62,
       "id_score": 1818.9,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 192.2,
-      "sat": 16.7,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3725,8 +3725,8 @@
       "duration": 52,
       "id_score": 608.63,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 133.1,
-      "sat": 52.3,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3758,8 +3758,8 @@
       "duration": 67,
       "id_score": 629.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.9,
-      "sat": 88.8,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3780,8 +3780,8 @@
       "duration": 72,
       "id_score": 598.43,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.1,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3813,8 +3813,8 @@
       "duration": 62,
       "id_score": 856.69,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.0,
-      "sat": 86.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3835,8 +3835,8 @@
       "duration": 57,
       "id_score": 27.86,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 13.0,
-      "sat": 90.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3857,8 +3857,8 @@
       "duration": 72,
       "id_score": 48.54,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 72.7,
-      "sat": 96.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3868,8 +3868,8 @@
       "duration": 72,
       "id_score": 9.62,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 32.7,
-      "sat": 86.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3879,8 +3879,8 @@
       "duration": 78,
       "id_score": 592.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 53.2,
-      "sat": 27.0,
+      "hue": 184.5,
+      "sat": 39.9,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3890,8 +3890,8 @@
       "duration": 62,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 53.2,
-      "sat": 27.0,
+      "hue": 184.5,
+      "sat": 39.9,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -3901,8 +3901,8 @@
       "duration": 57,
       "id_score": 6.77,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 302.7,
-      "sat": 32.6,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3912,8 +3912,8 @@
       "duration": 57,
       "id_score": 21.2,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 317.0,
-      "sat": 88.9,
+      "hue": 328.2,
+      "sat": 86.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3923,8 +3923,8 @@
       "duration": 244,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 317.0,
-      "sat": 88.9,
+      "hue": 328.2,
+      "sat": 86.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3934,8 +3934,8 @@
       "duration": 67,
       "id_score": 641.37,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 332.7,
-      "sat": 69.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -3945,8 +3945,8 @@
       "duration": 145,
       "id_score": 51.09,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 22.6,
-      "sat": 53.0,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3978,8 +3978,8 @@
       "duration": 67,
       "id_score": 47.48,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 102.6,
-      "sat": 79.5,
+      "hue": 111.6,
+      "sat": 71.2,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -3989,8 +3989,8 @@
       "duration": 72,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 102.6,
-      "sat": 79.5,
+      "hue": 111.6,
+      "sat": 71.2,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4000,8 +4000,8 @@
       "duration": 52,
       "id_score": 1061.81,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 108.0,
-      "sat": 84.0,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4011,8 +4011,8 @@
       "duration": 52,
       "id_score": 24.34,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 111.4,
-      "sat": 33.3,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4022,8 +4022,8 @@
       "duration": 67,
       "id_score": 16.96,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 300.0,
-      "sat": 9.8,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4033,8 +4033,8 @@
       "duration": 67,
       "id_score": 818.9,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.5,
-      "sat": 21.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4044,8 +4044,8 @@
       "duration": 192,
       "id_score": 2512.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 330.0,
-      "sat": 29.6,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4055,8 +4055,8 @@
       "duration": 62,
       "id_score": 6.8,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 192.0,
-      "sat": 13.1,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4066,8 +4066,8 @@
       "duration": 375,
       "id_score": 42.81,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 166.5,
-      "sat": 52.2,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4077,8 +4077,8 @@
       "duration": 52,
       "id_score": 672.67,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 130.9,
-      "sat": 52.9,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4088,8 +4088,8 @@
       "duration": 41,
       "id_score": 124.72,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 167.6,
-      "sat": 52.4,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4121,8 +4121,8 @@
       "duration": 1312,
       "id_score": 241.28,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 41.4,
-      "sat": 88.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4143,8 +4143,8 @@
       "duration": 67,
       "id_score": 332.14,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 24.3,
-      "sat": 87.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4176,8 +4176,8 @@
       "duration": 57,
       "id_score": 478.74,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.1,
-      "sat": 86.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4198,8 +4198,8 @@
       "duration": 52,
       "id_score": 481.03,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 24.5,
-      "sat": 87.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4220,8 +4220,8 @@
       "duration": 62,
       "id_score": 374.8,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 31.5,
-      "sat": 91.5,
+      "hue": 32.5,
+      "sat": 86.7,
       "regime_state": "Stable"
     },
     {
@@ -4231,8 +4231,8 @@
       "duration": 52,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 31.5,
-      "sat": 91.5,
+      "hue": 32.5,
+      "sat": 86.7,
       "regime_state": "Stable"
     },
     {
@@ -4242,8 +4242,8 @@
       "duration": 78,
       "id_score": 396.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 37.9,
-      "sat": 91.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4275,8 +4275,8 @@
       "duration": 46,
       "id_score": 1103.76,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 341.7,
-      "sat": 64.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4286,8 +4286,8 @@
       "duration": 67,
       "id_score": 604.72,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.2,
-      "sat": 71.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4308,8 +4308,8 @@
       "duration": 41,
       "id_score": 1914.96,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 135.0,
-      "sat": 25.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4319,8 +4319,8 @@
       "duration": 46,
       "id_score": 722.31,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 66.3,
-      "sat": 35.3,
+      "hue": 43.3,
+      "sat": 70.7,
       "regime_state": "Stable"
     },
     {
@@ -4330,8 +4330,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 66.3,
-      "sat": 35.3,
+      "hue": 43.3,
+      "sat": 70.7,
       "regime_state": "Stable"
     },
     {
@@ -4352,8 +4352,8 @@
       "duration": 1041,
       "id_score": 241.67,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 101.1,
-      "sat": 70.9,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4363,8 +4363,8 @@
       "duration": 1041,
       "id_score": 1230.24,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 108.7,
-      "sat": 79.2,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4374,8 +4374,8 @@
       "duration": 1020,
       "id_score": 650.66,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 90.6,
-      "sat": 69.5,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4385,8 +4385,8 @@
       "duration": 1052,
       "id_score": 1133.86,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 77.4,
-      "sat": 67.7,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4396,8 +4396,8 @@
       "duration": 135,
       "id_score": 106.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 86.4,
-      "sat": 69.5,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4407,8 +4407,8 @@
       "duration": 52,
       "id_score": 10.1,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 78.6,
-      "sat": 55.4,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4418,8 +4418,8 @@
       "duration": 625,
       "id_score": 18.05,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 92.7,
-      "sat": 59.4,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4440,8 +4440,8 @@
       "duration": 52,
       "id_score": 624.88,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 20.5,
-      "sat": 87.8,
+      "hue": 30.5,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -4451,8 +4451,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 20.5,
-      "sat": 87.8,
+      "hue": 30.5,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -4462,8 +4462,8 @@
       "duration": 67,
       "id_score": 376.83,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 34.4,
-      "sat": 79.4,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4495,8 +4495,8 @@
       "duration": 98,
       "id_score": 330.71,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 15.7,
-      "sat": 44.9,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4506,8 +4506,8 @@
       "duration": 67,
       "id_score": 838.58,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 41.6,
-      "sat": 45.8,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4550,8 +4550,8 @@
       "duration": 52,
       "id_score": 629.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 280.0,
-      "sat": 18.0,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4572,8 +4572,8 @@
       "duration": 1015,
       "id_score": 443.57,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 53.4,
-      "sat": 52.1,
+      "hue": 101.7,
+      "sat": 70.8,
       "regime_state": "Stable"
     },
     {
@@ -4583,8 +4583,8 @@
       "duration": 1010,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 53.4,
-      "sat": 52.1,
+      "hue": 101.7,
+      "sat": 70.8,
       "regime_state": "Stable"
     },
     {
@@ -4594,8 +4594,8 @@
       "duration": 1020,
       "id_score": 850.39,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 55.4,
-      "sat": 61.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4605,8 +4605,8 @@
       "duration": 963,
       "id_score": 448.43,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 49.7,
-      "sat": 65.9,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4616,8 +4616,8 @@
       "duration": 145,
       "id_score": 17.33,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 68.8,
-      "sat": 53.9,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4627,8 +4627,8 @@
       "duration": 135,
       "id_score": 10.24,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 118.1,
-      "sat": 86.7,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4638,8 +4638,8 @@
       "duration": 489,
       "id_score": 8.43,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 117.6,
-      "sat": 86.7,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4660,8 +4660,8 @@
       "duration": 1041,
       "id_score": 398.2,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 150.0,
-      "sat": 4.1,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -4671,8 +4671,8 @@
       "duration": 1161,
       "id_score": 529.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.8,
-      "sat": 37.5,
+      "hue": 346.8,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -4682,8 +4682,8 @@
       "duration": 1083,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 347.8,
-      "sat": 37.5,
+      "hue": 346.8,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -4693,8 +4693,8 @@
       "duration": 151,
       "id_score": 14.39,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 29.6,
-      "sat": 32.7,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4704,8 +4704,8 @@
       "duration": 83,
       "id_score": 7.28,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 58.7,
-      "sat": 86.6,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4715,8 +4715,8 @@
       "duration": 552,
       "id_score": 7.87,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 59.5,
-      "sat": 86.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Regime Locked"
     },
     {
@@ -4737,8 +4737,8 @@
       "duration": 166,
       "id_score": 296.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 359.8,
-      "sat": 86.6,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4748,8 +4748,8 @@
       "duration": 1229,
       "id_score": 1659.84,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 5.3,
-      "sat": 91.8,
+      "hue": 9.7,
+      "sat": 97.0,
       "regime_state": "Stable"
     },
     {
@@ -4759,8 +4759,8 @@
       "duration": 1223,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 5.3,
-      "sat": 91.8,
+      "hue": 9.7,
+      "sat": 97.0,
       "regime_state": "Stable"
     },
     {
@@ -4770,8 +4770,8 @@
       "duration": 1161,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 5.3,
-      "sat": 91.8,
+      "hue": 9.7,
+      "sat": 97.0,
       "regime_state": "Stable"
     },
     {
@@ -4781,8 +4781,8 @@
       "duration": 145,
       "id_score": 19.49,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 16.4,
-      "sat": 86.5,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4792,8 +4792,8 @@
       "duration": 104,
       "id_score": 10.69,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 89.6,
-      "sat": 86.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4803,8 +4803,8 @@
       "duration": 807,
       "id_score": 10.36,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 79.3,
-      "sat": 88.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4869,8 +4869,8 @@
       "duration": 78,
       "id_score": 1031.14,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 43.6,
-      "sat": 96.6,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4880,8 +4880,8 @@
       "duration": 62,
       "id_score": 566.93,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 43.1,
-      "sat": 84.0,
+      "hue": 42.3,
+      "sat": 70.8,
       "regime_state": "Stable"
     },
     {
@@ -4891,8 +4891,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 43.1,
-      "sat": 84.0,
+      "hue": 42.3,
+      "sat": 70.8,
       "regime_state": "Stable"
     },
     {
@@ -4902,8 +4902,8 @@
       "duration": 98,
       "id_score": 8.44,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 52.0,
-      "sat": 82.3,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4913,8 +4913,8 @@
       "duration": 72,
       "id_score": 240.52,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 47.3,
-      "sat": 71.4,
+      "hue": 30.0,
+      "sat": 50.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4924,8 +4924,8 @@
       "duration": 88,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 47.3,
-      "sat": 71.4,
+      "hue": 30.0,
+      "sat": 50.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4935,8 +4935,8 @@
       "duration": 72,
       "id_score": 666.14,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.6,
-      "sat": 71.3,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -4946,8 +4946,8 @@
       "duration": 62,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 11.8,
-      "sat": 63.3,
+      "hue": 343.5,
+      "sat": 96.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4957,8 +4957,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 11.8,
-      "sat": 63.3,
+      "hue": 343.5,
+      "sat": 96.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -4968,8 +4968,8 @@
       "duration": 52,
       "id_score": 944.88,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 41.5,
-      "sat": 52.0,
+      "hue": 104.4,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -4979,8 +4979,8 @@
       "duration": 52,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 41.5,
-      "sat": 52.0,
+      "hue": 104.4,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -5012,8 +5012,8 @@
       "duration": 52,
       "id_score": 829.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 80.0,
-      "sat": 49.1,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5023,8 +5023,8 @@
       "duration": 46,
       "id_score": 176.09,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 105.3,
-      "sat": 50.5,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5056,8 +5056,8 @@
       "duration": 1307,
       "id_score": 1196.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 34.9,
-      "sat": 61.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5067,8 +5067,8 @@
       "duration": 994,
       "id_score": 347.24,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 60.7,
-      "sat": 43.7,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5100,8 +5100,8 @@
       "duration": 88,
       "id_score": 311.18,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 120.9,
-      "sat": 50.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5133,8 +5133,8 @@
       "duration": 354,
       "id_score": 84.06,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 139.3,
-      "sat": 66.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5144,8 +5144,8 @@
       "duration": 78,
       "id_score": 22.24,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 166.3,
-      "sat": 21.3,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5166,8 +5166,8 @@
       "duration": 229,
       "id_score": 16.39,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 247.7,
-      "sat": 71.3,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5177,8 +5177,8 @@
       "duration": 72,
       "id_score": 5.34,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 141.2,
-      "sat": 26.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5199,8 +5199,8 @@
       "duration": 255,
       "id_score": 92.81,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 16.2,
-      "sat": 52.1,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5210,8 +5210,8 @@
       "duration": 359,
       "id_score": 200.3,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 62.0,
-      "sat": 41.4,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5221,8 +5221,8 @@
       "duration": 343,
       "id_score": 239.37,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 61.1,
-      "sat": 56.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5243,8 +5243,8 @@
       "duration": 260,
       "id_score": 526.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 357.8,
-      "sat": 50.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5254,8 +5254,8 @@
       "duration": 182,
       "id_score": 65.55,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 47.5,
-      "sat": 31.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5287,8 +5287,8 @@
       "duration": 67,
       "id_score": 94.52,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 165.6,
-      "sat": 96.6,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5298,8 +5298,8 @@
       "duration": 140,
       "id_score": 204.01,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 133.9,
-      "sat": 63.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5309,8 +5309,8 @@
       "duration": 161,
       "id_score": 8.05,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 149.1,
-      "sat": 67.2,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5331,8 +5331,8 @@
       "duration": 291,
       "id_score": 243.66,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 153.3,
-      "sat": 74.5,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5342,8 +5342,8 @@
       "duration": 250,
       "id_score": 963.46,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 130.1,
-      "sat": 60.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5353,8 +5353,8 @@
       "duration": 130,
       "id_score": 25.65,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 138.9,
-      "sat": 48.8,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5364,8 +5364,8 @@
       "duration": 130,
       "id_score": 7.69,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 259.5,
-      "sat": 70.9,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5375,8 +5375,8 @@
       "duration": 260,
       "id_score": 16.28,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 240.1,
-      "sat": 73.2,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5386,8 +5386,8 @@
       "duration": 57,
       "id_score": 5.37,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 125.9,
-      "sat": 26.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5419,8 +5419,8 @@
       "duration": 244,
       "id_score": 330.99,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 38.4,
-      "sat": 63.8,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5430,8 +5430,8 @@
       "duration": 317,
       "id_score": 130.41,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 58.5,
-      "sat": 57.5,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5463,8 +5463,8 @@
       "duration": 229,
       "id_score": 189.5,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 50.5,
-      "sat": 26.8,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5496,8 +5496,8 @@
       "duration": 197,
       "id_score": 109.57,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 120.8,
-      "sat": 50.0,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5540,8 +5540,8 @@
       "duration": 83,
       "id_score": 23.12,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 127.7,
-      "sat": 37.3,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5562,8 +5562,8 @@
       "duration": 78,
       "id_score": 5.47,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 255.3,
-      "sat": 70.7,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5584,8 +5584,8 @@
       "duration": 312,
       "id_score": 105.01,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 317.2,
-      "sat": 13.7,
+      "hue": 112.0,
+      "sat": 50.5,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5595,8 +5595,8 @@
       "duration": 312,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 317.2,
-      "sat": 13.7,
+      "hue": 112.0,
+      "sat": 50.5,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5617,8 +5617,8 @@
       "duration": 364,
       "id_score": 327.64,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 123.6,
-      "sat": 50.1,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5639,8 +5639,8 @@
       "duration": 119,
       "id_score": 8.49,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 233.7,
-      "sat": 26.2,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5661,8 +5661,8 @@
       "duration": 302,
       "id_score": 78.47,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 160.7,
-      "sat": 96.9,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5672,8 +5672,8 @@
       "duration": 317,
       "id_score": 466.77,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 141.3,
-      "sat": 72.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5683,8 +5683,8 @@
       "duration": 161,
       "id_score": 19.66,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 121.2,
-      "sat": 67.3,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5694,8 +5694,8 @@
       "duration": 322,
       "id_score": 11.41,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 75.1,
-      "sat": 96.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5705,8 +5705,8 @@
       "duration": 338,
       "id_score": 629.41,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 104.1,
-      "sat": 64.9,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5716,8 +5716,8 @@
       "duration": 333,
       "id_score": 174.09,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 91.0,
-      "sat": 68.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5727,8 +5727,8 @@
       "duration": 130,
       "id_score": 27.37,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 131.6,
-      "sat": 37.2,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5771,8 +5771,8 @@
       "duration": 281,
       "id_score": 1085.14,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 347.5,
-      "sat": 51.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -5782,8 +5782,8 @@
       "duration": 239,
       "id_score": 109.57,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 314.5,
-      "sat": 11.2,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5804,8 +5804,8 @@
       "duration": 463,
       "id_score": 176.54,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 127.0,
-      "sat": 50.4,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5837,8 +5837,8 @@
       "duration": 78,
       "id_score": 309.19,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 123.1,
-      "sat": 50.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5859,8 +5859,8 @@
       "duration": 250,
       "id_score": 223.53,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 164.7,
-      "sat": 96.6,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5870,8 +5870,8 @@
       "duration": 286,
       "id_score": 406.93,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 136.1,
-      "sat": 65.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5881,8 +5881,8 @@
       "duration": 67,
       "id_score": 21.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 153.7,
-      "sat": 24.1,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5903,8 +5903,8 @@
       "duration": 239,
       "id_score": 14.52,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 253.6,
-      "sat": 70.7,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5914,8 +5914,8 @@
       "duration": 57,
       "id_score": 5.96,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 130.0,
-      "sat": 26.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -5936,8 +5936,8 @@
       "duration": 250,
       "id_score": 478.32,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.1,
-      "sat": 69.6,
+      "hue": 359.3,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -5947,8 +5947,8 @@
       "duration": 317,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 44.1,
-      "sat": 69.6,
+      "hue": 359.3,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -5958,8 +5958,8 @@
       "duration": 302,
       "id_score": 34.53,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 59.0,
-      "sat": 52.9,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -5991,8 +5991,8 @@
       "duration": 255,
       "id_score": 74.05,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 46.5,
-      "sat": 30.3,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6024,8 +6024,8 @@
       "duration": 62,
       "id_score": 69.34,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 165.7,
-      "sat": 96.6,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6035,8 +6035,8 @@
       "duration": 114,
       "id_score": 442.83,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 135.0,
-      "sat": 63.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6046,8 +6046,8 @@
       "duration": 125,
       "id_score": 8.51,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 150.3,
-      "sat": 67.9,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6068,8 +6068,8 @@
       "duration": 333,
       "id_score": 183.52,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 150.8,
-      "sat": 73.5,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6079,8 +6079,8 @@
       "duration": 333,
       "id_score": 809.87,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 130.3,
-      "sat": 61.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6090,8 +6090,8 @@
       "duration": 151,
       "id_score": 24.61,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 138.6,
-      "sat": 48.6,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6101,8 +6101,8 @@
       "duration": 140,
       "id_score": 7.5,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 260.1,
-      "sat": 71.0,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6112,8 +6112,8 @@
       "duration": 244,
       "id_score": 14.37,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 259.7,
-      "sat": 71.0,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6123,8 +6123,8 @@
       "duration": 62,
       "id_score": 5.39,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 125.9,
-      "sat": 26.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6156,8 +6156,8 @@
       "duration": 125,
       "id_score": 369.94,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 37.6,
-      "sat": 63.1,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6167,8 +6167,8 @@
       "duration": 239,
       "id_score": 98.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 55.5,
-      "sat": 57.0,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6189,8 +6189,8 @@
       "duration": 88,
       "id_score": 313.84,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 348.9,
-      "sat": 50.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6200,8 +6200,8 @@
       "duration": 88,
       "id_score": 225.3,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.8,
-      "sat": 27.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6233,8 +6233,8 @@
       "duration": 197,
       "id_score": 79.04,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 125.7,
-      "sat": 50.2,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6266,8 +6266,8 @@
       "duration": 380,
       "id_score": 241.42,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 82.9,
-      "sat": 62.7,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6277,8 +6277,8 @@
       "duration": 72,
       "id_score": 13.68,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 198.5,
-      "sat": 96.8,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6299,8 +6299,8 @@
       "duration": 130,
       "id_score": 2.37,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 210.0,
-      "sat": 1.9,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6321,8 +6321,8 @@
       "duration": 380,
       "id_score": 232.66,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 94.4,
-      "sat": 26.3,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6332,8 +6332,8 @@
       "duration": 364,
       "id_score": 454.8,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 73.0,
-      "sat": 46.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6354,8 +6354,8 @@
       "duration": 390,
       "id_score": 418.9,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 122.8,
-      "sat": 50.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6398,8 +6398,8 @@
       "duration": 375,
       "id_score": 441.5,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 352.3,
-      "sat": 50.5,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6409,8 +6409,8 @@
       "duration": 395,
       "id_score": 411.94,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 288.3,
-      "sat": 4.8,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6431,8 +6431,8 @@
       "duration": 276,
       "id_score": 466.77,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 126.5,
-      "sat": 50.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6475,8 +6475,8 @@
       "duration": 354,
       "id_score": 234.71,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 106.1,
-      "sat": 65.1,
+      "hue": 124.2,
+      "sat": 50.1,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6486,8 +6486,8 @@
       "duration": 333,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 106.1,
-      "sat": 65.1,
+      "hue": 124.2,
+      "sat": 50.1,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6541,8 +6541,8 @@
       "duration": 78,
       "id_score": 556.43,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 26.9,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6563,8 +6563,8 @@
       "duration": 78,
       "id_score": 263.42,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 22.8,
-      "sat": 87.3,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6596,8 +6596,8 @@
       "duration": 72,
       "id_score": 680.31,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.1,
-      "sat": 86.7,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6673,8 +6673,8 @@
       "duration": 83,
       "id_score": 396.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 216.7,
-      "sat": 7.9,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6684,8 +6684,8 @@
       "duration": 62,
       "id_score": 30.12,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 291.1,
-      "sat": 34.1,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6695,8 +6695,8 @@
       "duration": 57,
       "id_score": 3.27,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 17.6,
-      "sat": 25.9,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6706,8 +6706,8 @@
       "duration": 78,
       "id_score": 548.82,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 25.8,
-      "sat": 45.5,
+      "hue": 30.8,
+      "sat": 86.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6717,8 +6717,8 @@
       "duration": 62,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 25.8,
-      "sat": 45.5,
+      "hue": 30.8,
+      "sat": 86.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -6761,8 +6761,8 @@
       "duration": 93,
       "id_score": 849.45,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 137.4,
-      "sat": 96.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6772,8 +6772,8 @@
       "duration": 88,
       "id_score": 771.65,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 118.9,
-      "sat": 81.2,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6783,8 +6783,8 @@
       "duration": 67,
       "id_score": 49.72,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 117.7,
-      "sat": 27.6,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6794,8 +6794,8 @@
       "duration": 78,
       "id_score": 15.78,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 300.0,
-      "sat": 9.9,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6805,8 +6805,8 @@
       "duration": 67,
       "id_score": 740.16,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 43.1,
-      "sat": 22.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6816,8 +6816,8 @@
       "duration": 62,
       "id_score": 583.56,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 195.3,
-      "sat": 14.1,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -6849,8 +6849,8 @@
       "duration": 57,
       "id_score": 443.36,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 126.6,
-      "sat": 54.5,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6871,8 +6871,8 @@
       "duration": 78,
       "id_score": 283.46,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 24.8,
-      "sat": 87.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6882,8 +6882,8 @@
       "duration": 1244,
       "id_score": 271.35,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 39.8,
-      "sat": 87.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6904,8 +6904,8 @@
       "duration": 67,
       "id_score": 209.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 24.3,
-      "sat": 87.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6937,8 +6937,8 @@
       "duration": 67,
       "id_score": 212.6,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 25.1,
-      "sat": 86.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6959,8 +6959,8 @@
       "duration": 67,
       "id_score": 718.11,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 24.9,
-      "sat": 87.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -6981,8 +6981,8 @@
       "duration": 78,
       "id_score": 58.29,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 72.0,
-      "sat": 96.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7003,8 +7003,8 @@
       "duration": 67,
       "id_score": 806.3,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 41.8,
-      "sat": 88.5,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7014,8 +7014,8 @@
       "duration": 62,
       "id_score": 426.14,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 51.6,
-      "sat": 35.0,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7025,8 +7025,8 @@
       "duration": 57,
       "id_score": 6.85,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 314.6,
-      "sat": 31.5,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7047,8 +7047,8 @@
       "duration": 88,
       "id_score": 755.91,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 333.2,
-      "sat": 69.2,
+      "hue": 27.5,
+      "sat": 86.7,
       "regime_state": "Stable"
     },
     {
@@ -7058,8 +7058,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 333.2,
-      "sat": 69.2,
+      "hue": 27.5,
+      "sat": 86.7,
       "regime_state": "Stable"
     },
     {
@@ -7069,8 +7069,8 @@
       "duration": 72,
       "id_score": 28.35,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 23.0,
-      "sat": 52.5,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7102,8 +7102,8 @@
       "duration": 72,
       "id_score": 22.73,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 119.9,
-      "sat": 91.1,
+      "hue": 135.0,
+      "sat": 96.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7113,8 +7113,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 119.9,
-      "sat": 91.1,
+      "hue": 135.0,
+      "sat": 96.6,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7124,8 +7124,8 @@
       "duration": 78,
       "id_score": 1595.8,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 107.8,
-      "sat": 84.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7135,8 +7135,8 @@
       "duration": 57,
       "id_score": 53.05,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 112.5,
-      "sat": 34.3,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7157,8 +7157,8 @@
       "duration": 62,
       "id_score": 341.96,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 336.2,
-      "sat": 31.1,
+      "hue": 90.3,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -7168,8 +7168,8 @@
       "duration": 67,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 336.2,
-      "sat": 31.1,
+      "hue": 90.3,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -7179,8 +7179,8 @@
       "duration": 72,
       "id_score": 13.12,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 182.2,
-      "sat": 11.0,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -7190,8 +7190,8 @@
       "duration": 255,
       "id_score": 46.36,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 123.7,
-      "sat": 55.8,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7201,8 +7201,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 123.7,
-      "sat": 55.8,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7212,8 +7212,8 @@
       "duration": 57,
       "id_score": 46.88,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 157.7,
-      "sat": 50.5,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7245,8 +7245,8 @@
       "duration": 67,
       "id_score": 144.88,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 46.3,
-      "sat": 90.2,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7267,8 +7267,8 @@
       "duration": 67,
       "id_score": 297.78,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 24.0,
-      "sat": 87.1,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7300,8 +7300,8 @@
       "duration": 57,
       "id_score": 215.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 28.9,
-      "sat": 86.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7322,8 +7322,8 @@
       "duration": 46,
       "id_score": 976.38,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 26.2,
-      "sat": 86.8,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7366,8 +7366,8 @@
       "duration": 41,
       "id_score": 1286.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 37.0,
-      "sat": 90.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7388,8 +7388,8 @@
       "duration": 57,
       "id_score": 163.39,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 329.2,
-      "sat": 91.2,
+      "hue": 328.7,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -7399,8 +7399,8 @@
       "duration": 46,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 329.2,
-      "sat": 91.2,
+      "hue": 328.7,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -7410,8 +7410,8 @@
       "duration": 52,
       "id_score": 544.02,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 346.6,
-      "sat": 74.0,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7432,8 +7432,8 @@
       "duration": 46,
       "id_score": 1835.17,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 137.3,
-      "sat": 25.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -7443,8 +7443,8 @@
       "duration": 41,
       "id_score": 557.8,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 106.4,
-      "sat": 45.9,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7454,8 +7454,8 @@
       "duration": 41,
       "id_score": 1233.07,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 66.9,
-      "sat": 36.4,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7476,8 +7476,8 @@
       "duration": 1005,
       "id_score": 350.49,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 106.1,
-      "sat": 78.9,
+      "hue": 134.4,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -7487,8 +7487,8 @@
       "duration": 937,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 106.1,
-      "sat": 78.9,
+      "hue": 134.4,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -7498,8 +7498,8 @@
       "duration": 968,
       "id_score": 492.39,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 88.6,
-      "sat": 70.3,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7509,8 +7509,8 @@
       "duration": 979,
       "id_score": 1322.83,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 75.8,
-      "sat": 68.7,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7520,8 +7520,8 @@
       "duration": 130,
       "id_score": 107.18,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 85.4,
-      "sat": 70.2,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7531,8 +7531,8 @@
       "duration": 57,
       "id_score": 11.9,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 75.6,
-      "sat": 55.2,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7542,8 +7542,8 @@
       "duration": 572,
       "id_score": 18.18,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 89.4,
-      "sat": 57.4,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7564,8 +7564,8 @@
       "duration": 62,
       "id_score": 316.54,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 39.7,
-      "sat": 78.0,
+      "hue": 21.3,
+      "sat": 87.6,
       "regime_state": "Stable"
     },
     {
@@ -7575,8 +7575,8 @@
       "duration": 52,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 39.7,
-      "sat": 78.0,
+      "hue": 21.3,
+      "sat": 87.6,
       "regime_state": "Stable"
     },
     {
@@ -7586,8 +7586,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 39.7,
-      "sat": 78.0,
+      "hue": 21.3,
+      "sat": 87.6,
       "regime_state": "Stable"
     },
     {
@@ -7608,8 +7608,8 @@
       "duration": 62,
       "id_score": 465.75,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 50.7,
-      "sat": 26.0,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -7619,8 +7619,8 @@
       "duration": 62,
       "id_score": 361.15,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 46.9,
-      "sat": 47.3,
+      "hue": 45.3,
+      "sat": 70.7,
       "regime_state": "Stable"
     },
     {
@@ -7630,8 +7630,8 @@
       "duration": 62,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 46.9,
-      "sat": 47.3,
+      "hue": 45.3,
+      "sat": 70.7,
       "regime_state": "Stable"
     },
     {
@@ -7652,8 +7652,8 @@
       "duration": 52,
       "id_score": 488.5,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 241.5,
-      "sat": 86.6,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7663,8 +7663,8 @@
       "duration": 52,
       "id_score": 975.12,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 271.8,
-      "sat": 53.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7674,8 +7674,8 @@
       "duration": 41,
       "id_score": 2244.09,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 274.8,
-      "sat": 14.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -7696,8 +7696,8 @@
       "duration": 1140,
       "id_score": 658.48,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 29.0,
-      "sat": 86.6,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7707,8 +7707,8 @@
       "duration": 1187,
       "id_score": 307.8,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 48.2,
-      "sat": 61.3,
+      "hue": 90.0,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -7718,8 +7718,8 @@
       "duration": 67,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 48.2,
-      "sat": 61.3,
+      "hue": 90.0,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -7729,8 +7729,8 @@
       "duration": 1114,
       "id_score": 1771.65,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 51.1,
-      "sat": 67.5,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7740,8 +7740,8 @@
       "duration": 947,
       "id_score": 30.29,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 49.1,
-      "sat": 69.2,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7751,8 +7751,8 @@
       "duration": 130,
       "id_score": 73.75,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 65.3,
-      "sat": 57.2,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7762,8 +7762,8 @@
       "duration": 67,
       "id_score": 11.05,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 109.9,
-      "sat": 75.0,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7773,8 +7773,8 @@
       "duration": 713,
       "id_score": 19.31,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 123.9,
-      "sat": 77.7,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7795,8 +7795,8 @@
       "duration": 963,
       "id_score": 230.97,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 108.4,
-      "sat": 31.0,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7806,8 +7806,8 @@
       "duration": 989,
       "id_score": 705.51,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 10.7,
-      "sat": 21.4,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -7817,8 +7817,8 @@
       "duration": 1000,
       "id_score": 470.87,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 349.6,
-      "sat": 33.9,
+      "hue": 330.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7828,8 +7828,8 @@
       "duration": 140,
       "id_score": 15.93,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 29.8,
-      "sat": 30.7,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7839,8 +7839,8 @@
       "duration": 140,
       "id_score": 8.67,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 15.3,
-      "sat": 67.0,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7850,8 +7850,8 @@
       "duration": 531,
       "id_score": 7.2,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 68.5,
-      "sat": 87.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7872,8 +7872,8 @@
       "duration": 1395,
       "id_score": 584.25,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 15.6,
-      "sat": 96.6,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7883,8 +7883,8 @@
       "duration": 1364,
       "id_score": 803.15,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 358.8,
-      "sat": 92.8,
+      "hue": 343.0,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -7894,8 +7894,8 @@
       "duration": 151,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 358.8,
-      "sat": 92.8,
+      "hue": 343.0,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -7905,8 +7905,8 @@
       "duration": 1598,
       "id_score": 189.92,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 5.0,
-      "sat": 91.9,
+      "hue": 30.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -7916,8 +7916,8 @@
       "duration": 177,
       "id_score": 8.88,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 15.6,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7927,8 +7927,8 @@
       "duration": 135,
       "id_score": 6.17,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 90.2,
-      "sat": 86.6,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7938,8 +7938,8 @@
       "duration": 859,
       "id_score": 5.39,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 92.3,
-      "sat": 86.7,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -7971,8 +7971,8 @@
       "duration": 83,
       "id_score": 1076.12,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 42.7,
-      "sat": 49.5,
+      "hue": 37.5,
+      "sat": 26.1,
       "regime_state": "Stable"
     },
     {
@@ -7982,8 +7982,8 @@
       "duration": 192,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 42.7,
-      "sat": 49.5,
+      "hue": 37.5,
+      "sat": 26.1,
       "regime_state": "Stable"
     },
     {
@@ -8004,8 +8004,8 @@
       "duration": 52,
       "id_score": 204.23,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 59.1,
-      "sat": 90.9,
+      "hue": 58.7,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -8015,8 +8015,8 @@
       "duration": 83,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 59.1,
-      "sat": 90.9,
+      "hue": 58.7,
+      "sat": 86.6,
       "regime_state": "Stable"
     },
     {
@@ -8026,8 +8026,8 @@
       "duration": 57,
       "id_score": 196.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 45.7,
-      "sat": 84.2,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8037,8 +8037,8 @@
       "duration": 78,
       "id_score": 9.73,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 54.7,
-      "sat": 82.8,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -8048,8 +8048,8 @@
       "duration": 62,
       "id_score": 237.65,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 49.9,
-      "sat": 72.2,
+      "hue": 30.0,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -8059,8 +8059,8 @@
       "duration": 83,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 49.9,
-      "sat": 72.2,
+      "hue": 30.0,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -8070,8 +8070,8 @@
       "duration": 67,
       "id_score": 340.16,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 45.1,
-      "sat": 71.9,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8081,8 +8081,8 @@
       "duration": 57,
       "id_score": 34.45,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 70.6,
-      "sat": 55.2,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -8092,8 +8092,8 @@
       "duration": 41,
       "id_score": 556.69,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 57.3,
-      "sat": 50.3,
+      "hue": 28.5,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -8103,8 +8103,8 @@
       "duration": 57,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 57.3,
-      "sat": 50.3,
+      "hue": 28.5,
+      "sat": 50.0,
       "regime_state": "Stable"
     },
     {
@@ -8114,8 +8114,8 @@
       "duration": 46,
       "id_score": 623.36,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 44.4,
-      "sat": 52.1,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8158,8 +8158,8 @@
       "duration": 36,
       "id_score": 229.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 104.6,
-      "sat": 49.7,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8180,8 +8180,8 @@
       "duration": 994,
       "id_score": 80.61,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 90.8,
-      "sat": 72.9,
+      "hue": 150.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8191,8 +8191,8 @@
       "duration": 1171,
       "id_score": 529.13,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 62.9,
-      "sat": 47.4,
+      "hue": 4.3,
+      "sat": 50.1,
       "regime_state": "Stable"
     },
     {
@@ -8202,8 +8202,8 @@
       "duration": 1244,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 62.9,
-      "sat": 47.4,
+      "hue": 4.3,
+      "sat": 50.1,
       "regime_state": "Stable"
     },
     {
@@ -8224,8 +8224,8 @@
       "duration": 3281,
       "id_score": 214.96,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 74.3,
-      "sat": 96.6,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8235,8 +8235,8 @@
       "duration": 1015,
       "id_score": 1323.69,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 81.5,
-      "sat": 97.2,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8246,8 +8246,8 @@
       "duration": 1484,
       "id_score": 781.31,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 105.4,
-      "sat": 70.8,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8268,8 +8268,8 @@
       "duration": 62,
       "id_score": 7.21,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 258.5,
-      "sat": 31.0,
+      "hue": 300.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -8290,8 +8290,8 @@
       "duration": 1447,
       "id_score": 88.34,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 300.0,
-      "sat": 0.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -8301,8 +8301,8 @@
       "duration": 265,
       "id_score": 113.26,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 210.7,
-      "sat": 35.7,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8312,8 +8312,8 @@
       "duration": 62,
       "id_score": 4.64,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 138.8,
-      "sat": 25.9,
+      "hue": 60.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -8356,8 +8356,8 @@
       "duration": 3276,
       "id_score": 1927.56,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 103.2,
-      "sat": 71.4,
+      "hue": 143.5,
+      "sat": 71.5,
       "regime_state": "Stable"
     },
     {
@@ -8367,8 +8367,8 @@
       "duration": 1447,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 103.2,
-      "sat": 71.4,
+      "hue": 143.5,
+      "sat": 71.5,
       "regime_state": "Stable"
     },
     {
@@ -8389,8 +8389,8 @@
       "duration": 390,
       "id_score": 5.96,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 166.0,
-      "sat": 96.6,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -8400,8 +8400,8 @@
       "duration": 229,
       "id_score": 8.05,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 141.8,
-      "sat": 71.2,
+      "hue": 90.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -8411,8 +8411,8 @@
       "duration": 62,
       "id_score": 9.51,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 160.6,
-      "sat": 50.9,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "TRANSITION SPIKE!"
     },
     {
@@ -8433,8 +8433,8 @@
       "duration": 1484,
       "id_score": 197.6,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 300.0,
-      "sat": 1.7,
+      "hue": 120.0,
+      "sat": 100.0,
       "regime_state": "Undefined / Gray Void"
     },
     {
@@ -8444,8 +8444,8 @@
       "duration": 312,
       "id_score": 129.25,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 211.8,
-      "sat": 35.9,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8488,8 +8488,8 @@
       "duration": 2692,
       "id_score": 148.48,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 80.0,
-      "sat": 97.0,
+      "hue": 74.3,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -8499,8 +8499,8 @@
       "duration": 2692,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 80.0,
-      "sat": 97.0,
+      "hue": 74.3,
+      "sat": 96.6,
       "regime_state": "Stable"
     },
     {
@@ -8510,8 +8510,8 @@
       "duration": 83,
       "id_score": 229.62,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 104.4,
-      "sat": 54.5,
+      "hue": 210.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8521,8 +8521,8 @@
       "duration": 2609,
       "id_score": 232.15,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 128.7,
-      "sat": 52.5,
+      "hue": 180.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {
@@ -8565,8 +8565,8 @@
       "duration": 4130,
       "id_score": 265.57,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 57.4,
-      "sat": 64.7,
+      "hue": 5.6,
+      "sat": 71.7,
       "regime_state": "Stable"
     },
     {
@@ -8576,8 +8576,8 @@
       "duration": 78,
       "id_score": 0.0,
       "voice_tag": "Background (Solid / Harmony)",
-      "hue": 57.4,
-      "sat": 64.7,
+      "hue": 5.6,
+      "sat": 71.7,
       "regime_state": "Stable"
     },
     {
@@ -8587,8 +8587,8 @@
       "duration": 5510,
       "id_score": 196.85,
       "voice_tag": "Voice 1 (Liquid / Melody)",
-      "hue": 40.6,
-      "sat": 65.1,
+      "hue": 0.0,
+      "sat": 100.0,
       "regime_state": "Stable"
     },
     {

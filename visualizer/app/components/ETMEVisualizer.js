@@ -6,8 +6,17 @@ import { useRef, useState, useEffect, useCallback } from 'react';
 const PITCH_MIN = 21;
 const PITCH_MAX = 108;
 const MAX_CANVAS_PX = 16000;
+const RULER_HEIGHT = 24;
 const NOTE_NAMES = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
 const BLACK_KEYS = [1,3,6,8,10];
+
+// Format ms to "M:SS.s" timestamp
+function formatTime(ms) {
+  const totalSec = ms / 1000;
+  const min = Math.floor(totalSec / 60);
+  const sec = totalSec % 60;
+  return min > 0 ? `${min}:${sec.toFixed(1).padStart(4, '0')}` : `${sec.toFixed(1)}s`;
+}
 
 // ===== COLOR HELPERS =====
 function hsl(h, s, l, a = 1) {
@@ -79,7 +88,8 @@ export default function ETMEVisualizer() {
     const maxTime = Math.max(...notes.map(n => n.onset + n.duration)) + 500;
     const rawW = maxTime * msPxInput;
     const canvasW = Math.min(Math.max(rawW, 1200), MAX_CANVAS_PX);
-    const canvasH = pitchRange * noteHeight;
+    const rollH = pitchRange * noteHeight;
+    const canvasH = rollH + RULER_HEIGHT;
     const effectiveScale = canvasW / maxTime;
     effectiveScaleRef.current = effectiveScale;
 
@@ -106,12 +116,37 @@ export default function ETMEVisualizer() {
       ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvasW, y); ctx.stroke();
     }
 
-    // Beat grid
+    // Beat grid + timestamp ruler
+    ctx.fillStyle = '#111118';
+    ctx.fillRect(0, rollH, canvasW, RULER_HEIGHT);
+    ctx.strokeStyle = 'rgba(255,255,255,0.06)';
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(0, rollH); ctx.lineTo(canvasW, rollH); ctx.stroke();
+
     for (let t = 0; t < maxTime; t += 500) {
       const x = t * effectiveScale;
+      // Vertical grid line
       ctx.strokeStyle = t % 2000 === 0 ? 'rgba(255,255,255,0.08)' : 'rgba(255,255,255,0.04)';
       ctx.lineWidth = t % 2000 === 0 ? 1 : 0.5;
-      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvasH); ctx.stroke();
+      ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, rollH); ctx.stroke();
+
+      // Ruler tick marks
+      const isMajor = t % 4000 === 0;
+      const isMinor = t % 2000 === 0;
+      if (isMajor || isMinor) {
+        const tickH = isMajor ? 8 : 4;
+        ctx.strokeStyle = 'rgba(255,255,255,0.2)';
+        ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.moveTo(x, rollH); ctx.lineTo(x, rollH + tickH); ctx.stroke();
+      }
+      // Labels every 4s
+      if (isMajor) {
+        ctx.font = '9px Inter';
+        ctx.fillStyle = 'rgba(255,255,255,0.45)';
+        ctx.textAlign = 'center';
+        ctx.fillText(formatTime(t), x, rollH + 18);
+        ctx.textAlign = 'start';
+      }
     }
 
     // Phase 1: Regime blocks
@@ -121,10 +156,10 @@ export default function ETMEVisualizer() {
         const w = Math.max((r.end_time - r.start_time) * effectiveScale, 1);
         const colors = regimeBlockColor(r);
         ctx.fillStyle = colors.bg;
-        ctx.fillRect(x, 0, w, canvasH);
+        ctx.fillRect(x, 0, w, rollH);
         ctx.strokeStyle = colors.border;
         ctx.lineWidth = 1;
-        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvasH); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, rollH); ctx.stroke();
         if (w > 30) {
           ctx.font = '9px Inter';
           ctx.fillStyle = colors.border;

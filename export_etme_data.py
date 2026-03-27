@@ -6,9 +6,10 @@ Phase 1 uses the HarmonicRegimeDetector from STS_bootstrapper.py
 (vector-based color wheel with HSL output).
 """
 import json
+import math
 from symusic import Score
 from particle import Particle
-from STS_bootstrapper import HarmonicRegimeDetector, SEMITONE_MAP
+from STS_bootstrapper import HarmonicRegimeDetector, SEMITONE_MAP, INTERVAL_ANGLES
 from information_density import InformationDensityScanner
 
 # Map MIDI pitch class (0-11) to interval names for the regime detector
@@ -16,6 +17,32 @@ PC_TO_INTERVAL = {
     0: "1", 1: "b2", 2: "2", 3: "b3", 4: "3", 5: "4",
     6: "#4", 7: "5", 8: "b6", 9: "6", 10: "b7", 11: "7"
 }
+
+
+def compute_snapshot_hue(notes_at_onset):
+    """Deterministic hue from pitch classes — same notes = same color, always.
+    No rolling history, no buffer drift."""
+    if not notes_at_onset:
+        return 0.0, 0.0
+    
+    x_total, y_total, weight_total = 0.0, 0.0, 0.0
+    for interval, octave, velocity in notes_at_onset:
+        weight = velocity / 127.0
+        weight_total += weight
+        angle_rad = math.radians(INTERVAL_ANGLES[interval])
+        x_total += weight * math.cos(angle_rad)
+        y_total += weight * math.sin(angle_rad)
+
+    if weight_total == 0:
+        return 0.0, 0.0
+
+    x_avg = x_total / weight_total
+    y_avg = y_total / weight_total
+    hue = math.degrees(math.atan2(y_avg, x_avg))
+    if hue < 0:
+        hue += 360
+    sat = math.sqrt(x_avg**2 + y_avg**2) * 100.0
+    return round(hue, 1), round(sat, 1)
 
 
 def midi_to_particles(midi_path):
@@ -110,7 +137,7 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
     for s, c in state_counts.items():
         print(f"    {s}: {c}")
 
-    # Store per-frame data so we can color each note by its exact hue
+    # Store per-frame data for regime state lookup
     frame_lookup = []
     for frame in regime_frames:
         frame_lookup.append({
@@ -120,6 +147,11 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
             "v_vec": frame["V_vec"],
             "state": frame["State"]
         })
+
+    # Build onset → keyframe notes lookup for deterministic per-note hue
+    keyframe_dict = {}
+    for time_ms, notes in keyframes:
+        keyframe_dict[time_ms] = notes
 
     # =============================================
     # Phase 2: Information Density
@@ -134,8 +166,17 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
     # Build JSON output
     notes_json = []
     for p in scored_particles:
-        # Find the closest regime frame for this note's onset
+        # Deterministic snapshot hue — same chord = same color always
+        onset_notes = keyframe_dict.get(p.onset, [])
+        if not onset_notes:
+            # Find closest keyframe
+            closest_t = min(keyframe_dict.keys(), key=lambda t: abs(t - p.onset))
+            onset_notes = keyframe_dict[closest_t]
+        snap_hue, snap_sat = compute_snapshot_hue(onset_notes)
+
+        # Regime state from detector (for state-based styling like Spike/Locked)
         closest_frame = min(frame_lookup, key=lambda f: abs(f["time"] - p.onset))
+
         notes_json.append({
             "pitch": p.pitch,
             "velocity": p.velocity,
@@ -143,9 +184,10 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
             "duration": p.duration,
             "id_score": round(p.id_score, 2),
             "voice_tag": p.voice_tag,
-            # Phase 1 color data per note
-            "hue": closest_frame["hue"],
-            "sat": closest_frame["sat"],
+            # Deterministic per-note coloring (snapshot = no history)
+            "hue": snap_hue,
+            "sat": snap_sat,
+            # Regime state for styling (Spike gets glow, etc.)
             "regime_state": closest_frame["state"]
         })
 
