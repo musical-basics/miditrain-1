@@ -15,7 +15,7 @@ SEMITONE_MAP = {
 
 class HarmonicRegimeDetector:
     """Lightweight regime detector that only processes keyframe timestamps (not every 10ms)."""
-    def __init__(self, buffer_ms=300, debounce_ms=150):
+    def __init__(self, buffer_ms=2000, debounce_ms=400):
         self.buffer_ms = buffer_ms
         self.debounce_ms = debounce_ms
         self.history = deque()
@@ -62,11 +62,11 @@ class HarmonicRegimeDetector:
         if final_saturation < 30.0:
             state = "Undefined / Gray Void"
         else:
-            is_spiking = (v_vec > 15.0) or bass_changed
+            is_spiking = (v_vec > 25.0) or bass_changed
             if is_spiking and (current_time_ms - self.last_spike_time) >= self.debounce_ms:
                 state = "TRANSITION SPIKE!"
                 self.last_spike_time = current_time_ms
-            elif final_saturation > 75.0 and v_vec < 5.0:
+            elif final_saturation > 70.0 and v_vec < 8.0:
                 state = "Regime Locked"
 
         return {"Time (ms)": current_time_ms, "Hue": round(final_hue, 1), "Sat (%)": round(final_saturation, 1), "V_vec": round(v_vec, 1), "State": state}

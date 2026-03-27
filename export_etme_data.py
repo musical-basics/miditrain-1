@@ -204,7 +204,19 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
         current_regime["end_time"] = particles[-1].onset + particles[-1].duration
         regimes.append(current_regime)
 
-    print(f"  Detected {len(regimes)} harmonic regimes")
+    # ---- Consolidation: merge micro-regimes (< 100ms) into neighbors ----
+    MIN_REGIME_MS = 100
+    consolidated = []
+    for r in regimes:
+        dur = r["end_time"] - r["start_time"]
+        if dur < MIN_REGIME_MS and consolidated:
+            # Absorb into the previous regime
+            consolidated[-1]["end_time"] = r["end_time"]
+        else:
+            consolidated.append(r)
+    regimes = consolidated
+
+    print(f"  Detected {len(regimes)} harmonic regimes (after consolidation)")
     state_counts = {}
     for r in regimes:
         state_counts[r["state"]] = state_counts.get(r["state"], 0) + 1
