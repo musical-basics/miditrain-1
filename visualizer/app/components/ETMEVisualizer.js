@@ -149,21 +149,66 @@ export default function ETMEVisualizer() {
       }
     }
 
-    // Phase 1: Regime blocks
+    // Phase 1: Regime blocks — paint background using the TRUE average chord hue from notes
     if (currentView === 'phase1') {
       for (const r of regimes) {
         const x = r.start_time * effectiveScale;
         const w = Math.max((r.end_time - r.start_time) * effectiveScale, 1);
-        const colors = regimeBlockColor(r);
-        ctx.fillStyle = colors.bg;
+
+        // Compute average hue from all notes within this regime's time window
+        const notesInRegime = notes.filter(n => n.onset >= r.start_time && n.onset < r.end_time);
+        let avgHue = 0, avgSat = 0;
+
+        if (notesInRegime.length > 0) {
+          // Vector-average the hues (to handle wraparound at 360°)
+          let sinSum = 0, cosSum = 0, satSum = 0;
+          for (const n of notesInRegime) {
+            const rad = (n.hue || 0) * Math.PI / 180;
+            sinSum += Math.sin(rad);
+            cosSum += Math.cos(rad);
+            satSum += (n.sat || 0);
+          }
+          avgHue = Math.atan2(sinSum, cosSum) * 180 / Math.PI;
+          if (avgHue < 0) avgHue += 360;
+          avgSat = satSum / notesInRegime.length;
+        }
+
+        // Background fill: regime's true harmonic color, very faint
+        if (r.state === 'Silence' || r.state === 'Undefined / Gray Void') {
+          ctx.fillStyle = 'rgba(30,30,40,0.15)';
+        } else {
+          ctx.fillStyle = `hsla(${avgHue}, ${Math.min(avgSat, 80)}%, 45%, 0.06)`;
+        }
         ctx.fillRect(x, 0, w, rollH);
-        ctx.strokeStyle = colors.border;
+
+        // Vertical separator line in the same hue
+        ctx.strokeStyle = `hsla(${avgHue}, ${Math.min(avgSat, 70)}%, 55%, 0.15)`;
         ctx.lineWidth = 1;
         ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, rollH); ctx.stroke();
+
+        // Thin 3px state indicator bar at the very top
+        let stateColor, stateLabel;
+        if (r.state === 'TRANSITION SPIKE!') {
+          stateColor = `hsla(60, 95%, 60%, 0.8)`;
+          stateLabel = '⚡ Spike';
+        } else if (r.state === 'Regime Locked') {
+          stateColor = `hsla(120, 80%, 50%, 0.8)`;
+          stateLabel = '🔒 Locked';
+        } else if (r.state === 'Silence' || r.state === 'Undefined / Gray Void') {
+          stateColor = `rgba(80, 80, 100, 0.4)`;
+          stateLabel = r.state === 'Silence' ? 'Silence' : 'Void';
+        } else {
+          stateColor = `hsla(${avgHue}, 70%, 55%, 0.6)`;
+          stateLabel = 'Stable';
+        }
+        ctx.fillStyle = stateColor;
+        ctx.fillRect(x, 0, w, 3);
+
+        // Label
         if (w > 30) {
           ctx.font = '9px Inter';
-          ctx.fillStyle = colors.border;
-          ctx.fillText(colors.label, x + 4, 12);
+          ctx.fillStyle = stateColor;
+          ctx.fillText(stateLabel, x + 4, 14);
         }
       }
     }
