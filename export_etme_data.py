@@ -221,4 +221,4 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
 
 
 if __name__ == "__main__":
-    export_analysis("raw_midi_grieg_waltz.mid")
+    export_analysis("grieg_waltz_raw_midiv2.mid")
