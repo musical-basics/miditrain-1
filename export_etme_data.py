@@ -19,30 +19,93 @@ PC_TO_INTERVAL = {
 }
 
 
-def compute_snapshot_hue(notes_at_onset):
-    """Deterministic hue from pitch classes — same notes = same color, always.
-    No rolling history, no buffer drift."""
-    if not notes_at_onset:
-        return 0.0, 0.0
+def calculate_weighted_chord_color(notes):
+    """
+    Calculates HSL color and tension of a chord using MIDI velocity weighting.
+    'notes' is a list of tuples: [("interval", octave, velocity_0_to_127), ...]
     
-    x_total, y_total, weight_total = 0.0, 0.0, 0.0
-    for interval, octave, velocity in notes_at_onset:
+    Returns dict with Hue, Saturation, Lightness, Tonal Distance.
+    """
+    x_total = 0.0
+    y_total = 0.0
+    lightness_weighted_total = 0.0
+    weight_total = 0.0
+
+    for interval, octave, velocity in notes:
+        if velocity <= 0:
+            continue
+
+        # Normalize MIDI velocity (0-127) to weight (0.0 - 1.0)
         weight = velocity / 127.0
         weight_total += weight
+
+        # Vector coordinates (Hue & Saturation)
         angle_rad = math.radians(INTERVAL_ANGLES[interval])
         x_total += weight * math.cos(angle_rad)
         y_total += weight * math.sin(angle_rad)
 
+        # Lightness from octave (Octave 1 = 5%, Octave 4 = 50%)
+        note_lightness = 5.0 + ((octave - 1) * 15.0)
+        note_lightness = max(0.0, min(100.0, note_lightness))
+        lightness_weighted_total += weight * note_lightness
+
     if weight_total == 0:
-        return 0.0, 0.0
+        return {"hue": 0.0, "sat": 0.0, "lightness": 0.0, "tonal_distance": 0.0}
 
     x_avg = x_total / weight_total
     y_avg = y_total / weight_total
-    hue = math.degrees(math.atan2(y_avg, x_avg))
-    if hue < 0:
-        hue += 360
-    sat = math.sqrt(x_avg**2 + y_avg**2) * 100.0
-    return round(hue, 1), round(sat, 1)
+
+    final_hue = math.degrees(math.atan2(y_avg, x_avg))
+    if final_hue < 0:
+        final_hue += 360
+
+    final_saturation = math.sqrt(x_avg**2 + y_avg**2) * 100.0
+    final_lightness = lightness_weighted_total / weight_total
+
+    # Tonal distance: microtonal tension off nearest 30° node
+    nearest_node = round(final_hue / 30.0) * 30.0
+    tonal_distance = abs(final_hue - nearest_node)
+
+    return {
+        "hue": round(final_hue, 1),
+        "sat": round(final_saturation, 1),
+        "lightness": round(final_lightness, 1),
+        "tonal_distance": round(tonal_distance, 1)
+    }
+
+
+def compute_rolling_color(onset_ms, all_particles, decay_ms=500):
+    """
+    Gathers all notes within [onset - decay_ms, onset] and calculates
+    the weighted chord color with linear time decay.
+    Older notes decay linearly to 0 at the edge of the window.
+    """
+    window_start = onset_ms - decay_ms
+    active_notes = []
+
+    for p in all_particles:
+        # Note is active if it started within the window and hasn't ended yet
+        note_end = p.onset + p.duration
+        if p.onset <= onset_ms and p.onset >= window_start:
+            # Linear time decay: 1.0 at onset_ms, 0.0 at window_start
+            age = onset_ms - p.onset
+            decay_factor = max(0.0, 1.0 - (age / decay_ms))
+            decayed_velocity = int(p.velocity * decay_factor)
+            if decayed_velocity > 0:
+                interval = PC_TO_INTERVAL[p.pitch % 12]
+                octave = p.pitch // 12
+                active_notes.append((interval, octave, decayed_velocity))
+        # Also include notes that started before the window but are still sounding
+        elif p.onset < window_start and note_end > onset_ms:
+            # These are very old but still held — minimal weight
+            interval = PC_TO_INTERVAL[p.pitch % 12]
+            octave = p.pitch // 12
+            active_notes.append((interval, octave, max(1, int(p.velocity * 0.1))))
+
+    if not active_notes:
+        return {"hue": 0.0, "sat": 0.0, "lightness": 0.0, "tonal_distance": 0.0}
+
+    return calculate_weighted_chord_color(active_notes)
 
 
 def midi_to_particles(midi_path):
@@ -163,16 +226,12 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
     melodies = [p for p in scored_particles if "Voice 1" in p.voice_tag]
     print(f"  Tagged {len(melodies)} melody particles")
 
-    # Build JSON output
+    # Build JSON output — each note gets rolling 4D color
+    print("Computing per-note rolling chord colors (500ms window)...")
     notes_json = []
     for p in scored_particles:
-        # Deterministic snapshot hue — same chord = same color always
-        onset_notes = keyframe_dict.get(p.onset, [])
-        if not onset_notes:
-            # Find closest keyframe
-            closest_t = min(keyframe_dict.keys(), key=lambda t: abs(t - p.onset))
-            onset_notes = keyframe_dict[closest_t]
-        snap_hue, snap_sat = compute_snapshot_hue(onset_notes)
+        # 4D velocity-weighted chord color with 500ms decay
+        color = compute_rolling_color(p.onset, particles, decay_ms=500)
 
         # Regime state from detector (for state-based styling like Spike/Locked)
         closest_frame = min(frame_lookup, key=lambda f: abs(f["time"] - p.onset))
@@ -184,10 +243,12 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
             "duration": p.duration,
             "id_score": round(p.id_score, 2),
             "voice_tag": p.voice_tag,
-            # Deterministic per-note coloring (snapshot = no history)
-            "hue": snap_hue,
-            "sat": snap_sat,
-            # Regime state for styling (Spike gets glow, etc.)
+            # 4D chord color (rolling window)
+            "hue": color["hue"],
+            "sat": color["sat"],
+            "lightness": color["lightness"],
+            "tonal_distance": color["tonal_distance"],
+            # Regime state for styling
             "regime_state": closest_frame["state"]
         })
 

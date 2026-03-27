@@ -181,22 +181,25 @@ export default function ETMEVisualizer() {
         fillColor = hsl(220, 70, 60, velAlpha);
         strokeColor = hsl(220, 80, 70, 0.7);
       } else if (currentView === 'phase1') {
+        // 4D chord color: Hue from vector angle, Sat from magnitude, Lightness from octave
         const h = n.hue || 0;
-        const s = Math.min(n.sat || 40, 85);
+        const s = Math.min(n.sat || 30, 100);
+        const l = Math.max(Math.min(n.lightness || 50, 85), 15);
+
         if (n.regime_state === 'TRANSITION SPIKE!') {
-          fillColor = `hsla(${h}, 95%, 60%, 0.9)`;
-          strokeColor = `hsla(${h}, 95%, 70%, 1)`;
+          fillColor = `hsla(${h}, ${Math.max(s, 70)}%, ${l}%, 0.95)`;
+          strokeColor = `hsla(${h}, 95%, ${Math.min(l + 15, 85)}%, 1)`;
           ctx.shadowColor = `hsla(${h}, 90%, 50%, 0.5)`;
           ctx.shadowBlur = 5;
         } else if (n.regime_state === 'Regime Locked') {
-          fillColor = `hsla(${h}, ${s}%, 50%, 0.75)`;
-          strokeColor = `hsla(${h}, ${s}%, 65%, 0.9)`;
+          fillColor = `hsla(${h}, ${s}%, ${l}%, 0.85)`;
+          strokeColor = `hsla(${h}, ${s}%, ${Math.min(l + 10, 80)}%, 0.95)`;
         } else if (n.regime_state === 'Silence' || n.regime_state === 'Undefined / Gray Void') {
-          fillColor = 'rgba(80, 80, 100, 0.4)';
-          strokeColor = 'rgba(100, 100, 130, 0.6)';
+          fillColor = `rgba(80, 80, 100, 0.4)`;
+          strokeColor = `rgba(100, 100, 130, 0.6)`;
         } else {
-          fillColor = `hsla(${h}, ${s}%, 45%, 0.6)`;
-          strokeColor = `hsla(${h}, ${s}%, 55%, 0.8)`;
+          fillColor = `hsla(${h}, ${s}%, ${l}%, 0.75)`;
+          strokeColor = `hsla(${h}, ${s}%, ${Math.min(l + 10, 80)}%, 0.85)`;
         }
       } else if (currentView === 'phase2') {
         fillColor = idScoreToColor(n.id_score);
