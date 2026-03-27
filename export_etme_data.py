@@ -74,36 +74,44 @@ def calculate_weighted_chord_color(notes):
     }
 
 
-def compute_rolling_color(onset_ms, all_particles, decay_ms=500):
+def compute_rolling_color(onset_ms, all_particles, half_life_ms=2000):
     """
-    Gathers all notes within [onset - decay_ms, onset + 50ms (lookahead)] and calculates
-    the weighted chord color with linear time decay.
-    Lookahead prevents 'color tearing' when a human slightly arpeggiates a chord — 
-    the first note needs to 'see' its partners 5-10ms in the future to compute the true chord hue.
+    Gathers all notes active near 'onset_ms' and calculates
+    the weighted chord color using Acoustic Exponential Decay.
+    A bass note played 2 seconds ago will still have 50% of its
+    original energy, allowing it to bind an entire measure together.
+    Lookahead (50ms) prevents 'color tearing' from human MIDI arpeggiation.
     """
-    window_start = onset_ms - decay_ms
+    # Look back 3 half-lives (e.g. 6 seconds) to catch all ringing resonance
+    window_start = onset_ms - (half_life_ms * 3)
     lookahead = onset_ms + 50
     active_notes = []
 
     for p in all_particles:
-        # Note is active if it started within the window (including lookahead) and hasn't ended
         note_end = p.onset + p.duration
+        
+        # Scenario A: Note was struck recently (within our 6s resonance window)
         if p.onset <= lookahead and p.onset >= window_start:
-            # Linear time decay: 1.0 at onset_ms, 0.0 at window_start
-            # For lookahead notes (in the future), decay is 1.0
             age = max(0, onset_ms - p.onset)
-            decay_factor = max(0.0, 1.0 - (age / decay_ms))
+            # Exponential decay: 0.5 ** (age / half_life)
+            decay_factor = 0.5 ** (age / half_life_ms)
             decayed_velocity = int(p.velocity * decay_factor)
+            
             if decayed_velocity > 0:
                 interval = PC_TO_INTERVAL[p.pitch % 12]
                 octave = p.pitch // 12
                 active_notes.append((interval, octave, decayed_velocity))
-        # Also include notes that started before the window but are still sounding
-        elif p.onset < window_start and note_end > onset_ms:
-            # These are very old but still held — minimal weight
+                
+        # Scenario B: Note was struck a long time ago, but is actively held/sustained
+        elif p.onset < window_start and note_end >= onset_ms:
+            age = max(0, onset_ms - p.onset)
+            # Even held notes statically decay over time on a piano
+            decay_factor = 0.5 ** (age / half_life_ms)
+            decayed_velocity = max(1, int(p.velocity * decay_factor))
+            
             interval = PC_TO_INTERVAL[p.pitch % 12]
             octave = p.pitch // 12
-            active_notes.append((interval, octave, max(1, int(p.velocity * 0.1))))
+            active_notes.append((interval, octave, decayed_velocity))
 
     if not active_notes:
         return {"hue": 0.0, "sat": 0.0, "lightness": 0.0, "tonal_distance": 0.0}
@@ -230,11 +238,11 @@ def export_analysis(midi_path, output_json="etme_analysis.json"):
     print(f"  Tagged {len(melodies)} melody particles")
 
     # Build JSON output — each note gets rolling 4D color
-    print("Computing per-note rolling chord colors (500ms window)...")
+    print("Computing per-note rolling chord colors (2.0s half-life)...")
     notes_json = []
     for p in scored_particles:
-        # 4D velocity-weighted chord color with 500ms decay
-        color = compute_rolling_color(p.onset, particles, decay_ms=500)
+        # Acoustic resonance: 2000ms exponential half-life
+        color = compute_rolling_color(p.onset, particles, half_life_ms=2000)
 
         # Regime state from detector (for state-based styling like Spike/Locked)
         closest_frame = min(frame_lookup, key=lambda f: abs(f["time"] - p.onset))
