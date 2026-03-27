@@ -223,6 +223,52 @@
             color: var(--text-secondary);
             line-height: 1.5;
         }
+
+        /* ===== ZOOM CONTROLS ===== */
+        .zoom-bar {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+            padding: 8px 28px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            font-size: 11px;
+            color: var(--text-secondary);
+        }
+        .zoom-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .zoom-group label {
+            min-width: 70px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+        }
+        .zoom-group input[type="range"] {
+            -webkit-appearance: none;
+            width: 140px;
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            outline: none;
+        }
+        .zoom-group input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--accent-blue);
+            cursor: pointer;
+            box-shadow: 0 0 6px rgba(74,158,255,0.3);
+        }
+        .zoom-value {
+            min-width: 35px;
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+            color: var(--text-primary);
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -248,6 +294,19 @@
         </button>
     </div>
 
+    <div class="zoom-bar">
+        <div class="zoom-group">
+            <label>H-Zoom</label>
+            <input type="range" id="hZoom" min="1" max="100" value="10">
+            <span class="zoom-value" id="hZoomVal">10</span>
+        </div>
+        <div class="zoom-group">
+            <label>V-Zoom</label>
+            <input type="range" id="vZoom" min="4" max="30" value="10">
+            <span class="zoom-value" id="vZoomVal">10</span>
+        </div>
+    </div>
+
     <div class="roll-container">
         <div class="keyboard" id="keyboard"></div>
         <div class="canvas-wrapper" id="canvasWrapper">
@@ -260,8 +319,7 @@
 
     <script>
     // ===== CONFIG =====
-    const NOTE_HEIGHT = 10;
-    const MAX_CANVAS_PX = 8000;    // browser-safe cap
+    const MAX_CANVAS_PX = 16000;   // browser-safe cap
     const PITCH_MIN = 21;          // A0
     const PITCH_MAX = 108;         // C8
     const NOTE_NAMES = ['C','C#','D','D#','E','F','F#','G','G#','A','A#','B'];
@@ -269,7 +327,9 @@
 
     let analysisData = null;
     let currentView = 'raw';
-    let MS_PER_PX = 0.8;           // will be auto-calculated
+    let MS_PER_PX = 0.05;           // will be driven by H-Zoom slider
+    let NOTE_HEIGHT = 10;            // will be driven by V-Zoom slider
+    let lastEffectiveScale = 0.05;   // cached for tooltip
 
     // roundRect polyfill for older browsers
     if (!CanvasRenderingContext2D.prototype.roundRect) {
@@ -355,11 +415,13 @@
         const ctx = canvas.getContext('2d');
         const pitchRange = PITCH_MAX - PITCH_MIN + 1;
 
-        // Calculate canvas dimensions — auto-zoom to fit within browser limits
+        // Calculate canvas dimensions from zoom sliders
         const maxTime = Math.max(...notes.map(n => n.onset + n.duration)) + 500;
-        MS_PER_PX = Math.min(0.8, MAX_CANVAS_PX / maxTime);  // auto-fit
-        const canvasW = Math.max(maxTime * MS_PER_PX, 1200);
+        const rawW = maxTime * MS_PER_PX;
+        const canvasW = Math.min(Math.max(rawW, 1200), MAX_CANVAS_PX);
         const canvasH = pitchRange * NOTE_HEIGHT;
+        const effectiveScale = canvasW / maxTime;
+        lastEffectiveScale = effectiveScale;
 
         const dpr = window.devicePixelRatio || 1;
         canvas.width = canvasW * dpr;
@@ -389,7 +451,7 @@
 
         // Beat grid lines (every 500ms ≈ 1 beat at 120bpm)
         for (let t = 0; t < maxTime; t += 500) {
-            const x = t * MS_PER_PX;
+            const x = t * effectiveScale;
             ctx.strokeStyle = t % 2000 === 0 ? var_grid_line_beat : var_grid_line;
             ctx.lineWidth = t % 2000 === 0 ? 1 : 0.5;
             ctx.beginPath();
@@ -401,8 +463,8 @@
         // === VIEW: Phase 1 Regime Blocks ===
         if (currentView === 'phase1') {
             for (const r of regimes) {
-                const x = r.start_time * MS_PER_PX;
-                const w = Math.max((r.end_time - r.start_time) * MS_PER_PX, 1);
+                const x = r.start_time * effectiveScale;
+                const w = Math.max((r.end_time - r.start_time) * effectiveScale, 1);
                 const colors = regimeBlockColor(r);
                 ctx.fillStyle = colors.bg;
                 ctx.fillRect(x, 0, w, canvasH);
@@ -423,8 +485,8 @@
 
         // === DRAW NOTES ===
         for (const n of notes) {
-            const x = n.onset * MS_PER_PX;
-            const w = Math.max(n.duration * MS_PER_PX, 2);
+            const x = n.onset * effectiveScale;
+            const w = Math.max(n.duration * effectiveScale, 2);
             const y = (PITCH_MAX - n.pitch) * NOTE_HEIGHT;
 
             let fillColor, strokeColor;
@@ -522,7 +584,7 @@
         const mx = (e.clientX - rect.left);
         const my = (e.clientY - rect.top);
 
-        const timeMs = mx / MS_PER_PX;
+        const timeMs = mx / lastEffectiveScale;
         const pitch = PITCH_MAX - Math.floor(my / NOTE_HEIGHT);
 
         const hit = analysisData.notes.find(n =>
@@ -559,6 +621,26 @@
     const keyboard = document.getElementById('keyboard');
     wrapper.addEventListener('scroll', () => {
         keyboard.scrollTop = wrapper.scrollTop;
+    });
+
+    // ===== ZOOM SLIDERS =====
+    const hZoomSlider = document.getElementById('hZoom');
+    const vZoomSlider = document.getElementById('vZoom');
+    const hZoomVal = document.getElementById('hZoomVal');
+    const vZoomVal = document.getElementById('vZoomVal');
+
+    hZoomSlider.addEventListener('input', () => {
+        const val = parseInt(hZoomSlider.value);
+        // Map 1-100 → 0.01 to 0.5 px/ms (exponential feel)
+        MS_PER_PX = 0.005 * val;
+        hZoomVal.textContent = val;
+        render();
+    });
+    vZoomSlider.addEventListener('input', () => {
+        NOTE_HEIGHT = parseInt(vZoomSlider.value);
+        vZoomVal.textContent = NOTE_HEIGHT;
+        buildKeyboard();
+        render();
     });
 
     // ===== TAB SWITCHING =====
