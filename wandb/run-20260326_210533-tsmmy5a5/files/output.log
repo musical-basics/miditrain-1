@@ -1,0 +1,26 @@
+Connected to Supabase.
+Training on: cpu
+Extracting physical performance data for cognitive mapping...
+Bootstrapping metrical grid...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from trainv2 import *; print('trainv2 import OK')
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lionelyu/Documents/New Version/miditrain-1/trainv2.py", line 90, in <module>
+    dataset = MeasureAlignedMidiDataset(
+        "raw_midi_grieg_waltz.mid",
+        "cleaned_midi_grieg_waltz.mid",
+        measures_per_chunk=config["measures_per_chunk"]
+    )
+  File "/Users/lionelyu/Documents/New Version/miditrain-1/data_pipelinev2.py", line 28, in __init__
+    self.grid_anchors = run_full_pipeline(messy_keyframes, initial_tempo=500.0)
+                        ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lionelyu/Documents/New Version/miditrain-1/unified_trackerv2.py", line 271, in run_full_pipeline
+    frames.append(detector.process_frame(time_ms, active_notes))
+                  ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lionelyu/Documents/New Version/miditrain-1/unified_trackerv2.py", line 33, in process_frame
+    lowest_note = min(active_notes, key=lambda n: (n[1], SEMITONE_MAP[n[0]]))
+  File "/Users/lionelyu/Documents/New Version/miditrain-1/unified_trackerv2.py", line 33, in <lambda>
+    lowest_note = min(active_notes, key=lambda n: (n[1], SEMITONE_MAP[n[0]]))
+                                                         ~~~~~~~~~~~~^^^^^^
+KeyError: '9'
