@@ -57,7 +57,7 @@ export default function ETMEVisualizer() {
 
   // Load data on mount
   useEffect(() => {
-    fetch('/etme_analysis.json')
+    fetch(`/etme_analysis.json?t=${Date.now()}`)
       .then(r => r.json())
       .then(setData)
       .catch(err => console.error('Failed to load data:', err));
@@ -249,7 +249,8 @@ export default function ETMEVisualizer() {
         y: e.clientY + 14,
         noteName, pitch: hit.pitch, velocity: hit.velocity,
         onset: hit.onset, duration: hit.duration,
-        id_score: hit.id_score, voice_tag: hit.voice_tag
+        id_score: hit.id_score, voice_tag: hit.voice_tag,
+        hue: hit.hue, sat: hit.sat, lightness: hit.lightness, tonal_distance: hit.tonal_distance
       });
     } else {
       setTooltip(null);
@@ -372,6 +373,11 @@ export default function ETMEVisualizer() {
             Velocity: {tooltip.velocity}<br />
             Onset: {tooltip.onset}ms<br />
             Duration: {tooltip.duration}ms<br />
+            <br />
+            <strong>4D Chord Color:</strong><br />
+            H: {tooltip.hue}° | S: {tooltip.sat}% | L: {tooltip.lightness}%<br />
+            Tension: {tooltip.tonal_distance}°<br />
+            <br />
             I<sub>d</sub> Score: {tooltip.id_score}<br />
             Tag: {tooltip.voice_tag}
           </div>
