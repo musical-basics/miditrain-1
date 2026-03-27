@@ -34,11 +34,11 @@ function idScoreToColor(score) {
 function regimeBlockColor(regime) {
   const h = regime.hue || 0;
   const s = regime.saturation || 0;
-  if (regime.state === 'Silence') return { bg: 'rgba(30,30,40,0.6)', border: 'rgba(80,80,100,0.3)', label: 'Silence' };
-  if (regime.state === 'Undefined / Gray Void') return { bg: 'rgba(60,60,80,0.2)', border: 'rgba(100,100,130,0.3)', label: 'Void' };
-  if (regime.state === 'TRANSITION SPIKE!') return { bg: `hsla(${h},90%,50%,0.15)`, border: `hsla(${h},90%,60%,0.7)`, label: '⚡ Spike' };
-  if (regime.state === 'Regime Locked') return { bg: `hsla(${h},${Math.min(s,80)}%,40%,0.18)`, border: `hsla(${h},${Math.min(s,80)}%,55%,0.6)`, label: '🔒 Locked' };
-  return { bg: `hsla(${h},${Math.min(s,70)}%,45%,0.10)`, border: `hsla(${h},${Math.min(s,70)}%,55%,0.35)`, label: 'Stable' };
+  if (regime.state === 'Silence') return { bg: 'rgba(30,30,40,0.3)', border: 'rgba(80,80,100,0.2)', label: 'Silence' };
+  if (regime.state === 'Undefined / Gray Void') return { bg: 'rgba(60,60,80,0.1)', border: 'rgba(100,100,130,0.15)', label: 'Void' };
+  if (regime.state === 'TRANSITION SPIKE!') return { bg: `hsla(${h},90%,50%,0.06)`, border: `hsla(${h},90%,60%,0.35)`, label: '⚡ Spike' };
+  if (regime.state === 'Regime Locked') return { bg: `hsla(${h},${Math.min(s,80)}%,40%,0.08)`, border: `hsla(${h},${Math.min(s,80)}%,55%,0.3)`, label: '🔒 Locked' };
+  return { bg: `hsla(${h},${Math.min(s,70)}%,45%,0.04)`, border: `hsla(${h},${Math.min(s,70)}%,55%,0.15)`, label: 'Stable' };
 }
 
 // ===== MAIN COMPONENT =====
@@ -184,22 +184,24 @@ export default function ETMEVisualizer() {
         // 4D chord color: Hue from vector angle, Sat from magnitude, Lightness from octave
         const h = n.hue || 0;
         const s = Math.min(n.sat || 30, 100);
-        const l = Math.max(Math.min(n.lightness || 50, 85), 15);
+        // Remap lightness to a wider visual range (20-80) for better contrast
+        const rawL = n.lightness || 50;
+        const l = 20 + (rawL / 100) * 60;
 
         if (n.regime_state === 'TRANSITION SPIKE!') {
           fillColor = `hsla(${h}, ${Math.max(s, 70)}%, ${l}%, 0.95)`;
           strokeColor = `hsla(${h}, 95%, ${Math.min(l + 15, 85)}%, 1)`;
-          ctx.shadowColor = `hsla(${h}, 90%, 50%, 0.5)`;
-          ctx.shadowBlur = 5;
+          ctx.shadowColor = `hsla(${h}, 90%, 50%, 0.4)`;
+          ctx.shadowBlur = 4;
         } else if (n.regime_state === 'Regime Locked') {
-          fillColor = `hsla(${h}, ${s}%, ${l}%, 0.85)`;
+          fillColor = `hsla(${h}, ${s}%, ${l}%, 0.9)`;
           strokeColor = `hsla(${h}, ${s}%, ${Math.min(l + 10, 80)}%, 0.95)`;
         } else if (n.regime_state === 'Silence' || n.regime_state === 'Undefined / Gray Void') {
           fillColor = `rgba(80, 80, 100, 0.4)`;
           strokeColor = `rgba(100, 100, 130, 0.6)`;
         } else {
-          fillColor = `hsla(${h}, ${s}%, ${l}%, 0.75)`;
-          strokeColor = `hsla(${h}, ${s}%, ${Math.min(l + 10, 80)}%, 0.85)`;
+          fillColor = `hsla(${h}, ${s}%, ${l}%, 0.8)`;
+          strokeColor = `hsla(${h}, ${s}%, ${Math.min(l + 10, 80)}%, 0.9)`;
         }
       } else if (currentView === 'phase2') {
         fillColor = idScoreToColor(n.id_score);
