@@ -76,19 +76,22 @@ def calculate_weighted_chord_color(notes):
 
 def compute_rolling_color(onset_ms, all_particles, decay_ms=500):
     """
-    Gathers all notes within [onset - decay_ms, onset] and calculates
+    Gathers all notes within [onset - decay_ms, onset + 50ms (lookahead)] and calculates
     the weighted chord color with linear time decay.
-    Older notes decay linearly to 0 at the edge of the window.
+    Lookahead prevents 'color tearing' when a human slightly arpeggiates a chord — 
+    the first note needs to 'see' its partners 5-10ms in the future to compute the true chord hue.
     """
     window_start = onset_ms - decay_ms
+    lookahead = onset_ms + 50
     active_notes = []
 
     for p in all_particles:
-        # Note is active if it started within the window and hasn't ended yet
+        # Note is active if it started within the window (including lookahead) and hasn't ended
         note_end = p.onset + p.duration
-        if p.onset <= onset_ms and p.onset >= window_start:
+        if p.onset <= lookahead and p.onset >= window_start:
             # Linear time decay: 1.0 at onset_ms, 0.0 at window_start
-            age = onset_ms - p.onset
+            # For lookahead notes (in the future), decay is 1.0
+            age = max(0, onset_ms - p.onset)
             decay_factor = max(0.0, 1.0 - (age / decay_ms))
             decayed_velocity = int(p.velocity * decay_factor)
             if decayed_velocity > 0:
